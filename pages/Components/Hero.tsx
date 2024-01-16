@@ -34,10 +34,12 @@ const Hero = () => {
         </div>
         <div className="w-[500px] hidden bg-[#55e6a5] relative lg:flex items-center rounded-full h-[500px]">
           <Image
-            src="/images/u1.jpg"
+            src="/images/mdfv.jpg"
             alt="user"
             layout="fill"
             className="object-cover rounded-full"
+            style={{ objectPosition: "center top", transform: "scale(.99993)" }}
+            unoptimized
           />
         </div>
       </div>
