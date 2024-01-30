@@ -3,8 +3,18 @@ import Particle from "./Particle";
 import TextEffect from "./TextEffect";
 import Image from "next/image";
 import { ArrowDownTrayIcon, PlayCircleIcon } from "@heroicons/react/20/solid";
+import AOS from "aos";
+
+import { useEffect } from "react";
 
 const Hero = () => {
+  useEffect(() => {
+    // Refresh AOS after a short delay
+    setTimeout(() => {
+      AOS.refresh();
+    }, 100); // Delay in milliseconds (100ms in this case)
+  }, []);
+
   return (
     <div className="h-[88vh] bg-[url('/images/banner.jpg')] mt-[10vh] bg-cover bg-center">
       <Particle />
@@ -32,7 +42,10 @@ const Hero = () => {
             </button>
           </div>
         </div>
-        <div className="w-[500px] hidden bg-[#55e6a5] relative lg:flex items-center rounded-full h-[500px]">
+        <div
+          data-aos="zoom-in"
+          className="w-[500px] bg-[#55e6a5] relative lg:flex items-center rounded-full h-[500px]"
+        >
           <Image
             src="/images/mdfv.jpg"
             alt="user"
