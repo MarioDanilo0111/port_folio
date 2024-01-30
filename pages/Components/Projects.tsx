@@ -3,7 +3,10 @@ import Image from "next/image";
 
 const Projects = () => {
   return (
-    <div className="bg-[#02050a] pt-[4rem] md:pt-[8rem] pb-[1rem] ">
+    <div
+      id="project"
+      className="bg-[#02050a] pt-[4rem] md:pt-[8rem] pb-[1rem] "
+    >
       <h1 className="heading">
         Pro
         <span className="text-yellow-400">Cypress</span>
@@ -35,7 +38,7 @@ const Projects = () => {
           </div>
         </div>
         <div data-aos="fade-left" data-aos-delay="900">
-          <div className="transform cursor-pointer hover:rotate-6 transition-all duration-200 relativ w-[100%] h-[200px] md:h-[300px]">
+          <div className="transform cursor-pointer hover:-rotate-6 transition-all duration-200 relativ w-[100%] h-[200px] md:h-[300px]">
             <Image
               src="/images/p3.jpg"
               alt="portfolio"
@@ -45,7 +48,7 @@ const Projects = () => {
           </div>
         </div>
         <div data-aos="fade-right" data-aos-delay="1200">
-          <div className="transform cursor-pointer hover:-rotate-6 transition-all duration-200 relativ w-[100%] h-[200px] md:h-[300px]">
+          <div className="transform cursor-pointer hover:rotate-6 transition-all duration-200 relativ w-[100%] h-[200px] md:h-[300px]">
             <Image
               src="/images/p4.jpg"
               alt="portfolio"
