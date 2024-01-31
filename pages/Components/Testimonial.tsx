@@ -4,7 +4,7 @@ import TestimonialSlide from "./TestimonialSlide";
 const Testimonial = () => {
   return (
     <section id="review">
-      <div className="bg-[#02050a] pt-[4rem] md:pt-[8rem] pb-[1rem] ">
+      <div className="bg-[#02050a] pt-[7rem] md:pt-[8rem] pb-[3.3rem] ">
         <h1 className="heading">
           Client <span className="text-yellow-400">Review</span>
         </h1>
