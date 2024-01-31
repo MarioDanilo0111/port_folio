@@ -6,7 +6,7 @@ interface Props {
   closeNav: () => void;
 }
 
-const MobileNav = ({ nav, closeNav }: Props) => {
+const MobileNav: React.FC<Props> = ({ nav, closeNav }) => {
   const navAnimation = nav ? "translate-x-0" : "translate-x-[-100%]";
 
   return (
@@ -15,19 +15,29 @@ const MobileNav = ({ nav, closeNav }: Props) => {
     >
       <div className="w-[100vw] h-[100vh] flex flex-col items-center justify-center">
         <div className="nav-link-mobile">
-          <a href="#home">HOME</a>
+          <a href="#home" onClick={closeNav}>
+            HOME
+          </a>
         </div>
         <div className="nav-link-mobile">
-          <a href="#services">SERVICES</a>
+          <a href="#services" onClick={closeNav}>
+            SERVICES
+          </a>
         </div>
         <div className="nav-link-mobile">
-          <a href="#about">ABOUT</a>
+          <a href="#about" onClick={closeNav}>
+            ABOUT
+          </a>
         </div>
         <div className="nav-link-mobile">
-          <a href="#Project">PROJECT</a>
+          <a href="#project" onClick={closeNav}>
+            PROJECT
+          </a>
         </div>
         <div className="nav-link-mobile">
-          <a href="#review">REVIEW</a>
+          <a href="#review" onClick={closeNav}>
+            REVIEW
+          </a>
         </div>
       </div>
       <div
