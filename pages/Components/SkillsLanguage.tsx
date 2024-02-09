@@ -4,18 +4,22 @@ interface Props {
   level2: string;
   level1: string;
   level3: string;
+  level4: string;
   skill1: string;
   skill2: string;
   skill3: string;
+  skill4: string;
 }
 
 const SkillsLanguage = ({
   level1,
   level2,
   level3,
+  level4,
   skill1,
   skill2,
   skill3,
+  skill4,
 }: Props) => {
   return (
     <div>
@@ -41,6 +45,14 @@ const SkillsLanguage = ({
         </h1>
         <span
           className={`${level3} bottom-0 h-[6px] absolute bg-[#55e6a5] rounded-xl`}
+        ></span>
+      </div>
+      <div className="relative mb-[3rem]">
+        <h1 className="p-5 w-[100%] uppercase bg-gray-800 rounded-sm text-white text-[20px] font-bold">
+          {skill4}
+        </h1>
+        <span
+          className={`${level4} bottom-0 h-[6px] absolute bg-[#55e6a5] rounded-xl`}
         ></span>
       </div>
     </div>
