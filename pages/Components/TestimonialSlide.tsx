@@ -34,10 +34,14 @@ const TestimonialSlide = () => {
     >
       <ClientReview
         image="/images/c1.jpg"
-        name="Juan Fernandez"
+        name="Juan Enrique Fernandez"
         role="Web Developer"
       />
-      <ClientReview image="/images/c2.jpg" name="Irene" role="Web Developer" />
+      <ClientReview
+        image="/images/c2.jpg"
+        name="Irena Levkova"
+        role="Web Developer"
+      />
     </Carousel>
   );
 };
