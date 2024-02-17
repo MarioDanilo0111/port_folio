@@ -22,7 +22,7 @@ const Hero = () => {
         <div className="w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center">
           <div className="">
             <h1 className="text-[35px] md:text-[50px] text-white font-bold ">
-              HI, I'M <samp className="text-yellow-400">Mario</samp>
+              HI, I&apos;M <samp className="text-yellow-400">Mario</samp>
             </h1>
             <TextEffect />
             <p className="mt-[1.5rem] text-[18px] text-[#ffffff92]">
