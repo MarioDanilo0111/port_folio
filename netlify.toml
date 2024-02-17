@@ -1,0 +1,11 @@
+# netlify.toml
+[build]
+  command = "npm run build"
+  publish = "out"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+[[cache]]
+  from = ".next/cache"
+  to = "/opt/build/cache/next"

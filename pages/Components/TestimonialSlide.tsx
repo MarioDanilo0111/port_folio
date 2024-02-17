@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import ClientReview from "./ClientReview";
+import Fedback from "./Fedback";
 
 const responsive = {
   desktop: {
@@ -32,15 +32,35 @@ const TestimonialSlide = () => {
       responsive={responsive}
       itemClass="item"
     >
-      <ClientReview
-        image="/images/c1.jpg"
-        name="Juan Enrique Fernandez"
-        role="Web Developer"
+      <Fedback
+        image="/images/joh.jpg"
+        name="Johnny Östman"
+        role="Site manager, CTO, 
+        Developer managager,software developer/
+        architect/DevOps/Agile/Azure"
+        textFed="Due to Mario's social skills, willingness to cooperate and share knowledge, motivation,
+drive, and big passion for frontend combined with his interest to learn new
+techniques, also on the backend side, he would be a nice fit as a frontend developer,
+or even a full stack developer T-shaped to frontend. I therefor warmly recommend him
+to similar roles as I described above."
       />
-      <ClientReview
-        image="/images/c2.jpg"
+      <Fedback
+        image="/images/juan.jpg"
+        name="Juan Enrique Fernandez"
+        role="Software Engineer"
+        textFed=""
+      />
+      <Fedback
+        image="/images/irena.jpg"
         name="Irena Levkova"
-        role="Web Developer"
+        role="SAP Application Consultant at Capgemini"
+        textFed=""
+      />
+      <Fedback
+        image="/images/bo.jpg"
+        name="Bo Sandberg"
+        role="Counsellor"
+        textFed=""
       />
     </Carousel>
   );

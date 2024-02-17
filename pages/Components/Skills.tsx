@@ -48,7 +48,7 @@ const Skills = () => {
         </div>
         <div className="">
           <SkillsItem
-            title="Programming 1 in C#"
+            title="Programming 1 with C#"
             fundation="NTI School"
             year="2019 - 2020"
             description="This foundational course offered a step-by-step introduction to programming with C#, tailored for beginners. It starts with essential planning techniques using pseudo-code and flowcharts to map out problem-solving strategies. Participants could then progress to the basics of C#, establishing a strong foundation in core programming concepts and laying the groundwork for further development and more complex projects."

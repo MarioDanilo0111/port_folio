@@ -24,7 +24,7 @@ const Services = () => {
                   I bring real-world experience in my work. I specialize in
                   creating user-focused frontend solutions. Adaptability and
                   problem-solving approach, honed through practical encounters
-                  in the developer's world.
+                  in the developer&apos;s world.
                 </p>
               </div>
             </div>
@@ -51,9 +51,9 @@ const Services = () => {
                 <p className="text-[15px] text-[#d3d2d2] font-normal">
                   Experienced in creating user-focused frontend solutions, I
                   bring real-world experience and a problem-solving approach,
-                  honed through practical encounters in the developer's world.
-                  Adaptability is a key strength, complementing my expertise in
-                  crafting effective and user-friendly interfaces.
+                  honed through practical encounters in the developer&apos;s
+                  world. Adaptability is a key strength, complementing my
+                  expertise in crafting effective and user-friendly interfaces.
                 </p>
               </div>
             </div>
