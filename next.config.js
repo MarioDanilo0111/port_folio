@@ -3,7 +3,12 @@ const nextConfig = {
   reactStrictMode: true,
   output: "export",
   images: {
-    unoptimized: true, // Disable Next.js Image Optimization API for local images
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "**",
+      },
+    ],
   },
 };
 
