@@ -5,10 +5,10 @@ import { useEffect } from "react";
 import AOS, { refresh } from "aos";
 import "aos/dist/aos.css"; // Import AOS styles
 
-import { useRouter } from "next/router";
+/* import { useRouter } from "next/router"; */
 
 export default function App({ Component, pageProps }: AppProps) {
-  const router = useRouter();
+  /* const router = useRouter(); */
 
   useEffect(() => {
     // You can also pass an optional settings object
