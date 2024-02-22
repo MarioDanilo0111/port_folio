@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { StarIcon } from "@heroicons/react/20/solid";
 interface Props {
   name: string;
