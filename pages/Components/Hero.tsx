@@ -59,7 +59,7 @@ const Hero = () => {
               layout="fill"
               className="object-cover rounded-full"
               style={{
-                objectPosition: "center top",
+                objectPosition: "center center",
                 transform: "scale(.99993)",
               }}
               unoptimized
