@@ -20,13 +20,18 @@ const MobileNav: React.FC<Props> = ({ nav, closeNav }) => {
           </a>
         </div>
         <div className="nav-link-mobile">
-          <a href="#services" onClick={closeNav}>
-            SERVICES
+          <a href="#about" onClick={closeNav}>
+            ABOUT
           </a>
         </div>
         <div className="nav-link-mobile">
-          <a href="#about" onClick={closeNav}>
-            ABOUT
+          <a href="#skills" onClick={closeNav}>
+            EDUCATION
+          </a>
+        </div>
+        <div className="nav-link-mobile">
+          <a href="#services" onClick={closeNav}>
+            SERVICES
           </a>
         </div>
         <div className="nav-link-mobile">
