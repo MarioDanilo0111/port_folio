@@ -2,7 +2,11 @@ import React from "react";
 import Particle from "./Particle";
 import TextEffect from "./TextEffect";
 import Image from "next/legacy/image";
-import { ArrowDownTrayIcon, PlayCircleIcon } from "@heroicons/react/20/solid";
+import {
+  ArrowDownTrayIcon,
+  PlayCircleIcon,
+  DocumentArrowDownIcon,
+} from "@heroicons/react/20/solid";
 import AOS from "aos";
 
 import { useEffect } from "react";
@@ -17,6 +21,7 @@ const Hero = () => {
 
   return (
     <section>
+      <Particle />
       <div className="h-[110vh] bg-[url('/images/banner.jpg')] mt-[10vh] bg-cover bg-center">
         <div
           className="w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center"
@@ -38,11 +43,18 @@ const Hero = () => {
               new knowledge, and making a positive impact on both the industry
               and the world at large.
             </p>
+
             <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6">
-              <button className="px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#55e6a5] text-black flex items-cemter space-x-2">
-                <p>Download CV</p>
-                <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black" />
-              </button>
+              <a
+                href="/myCV/CV-En-24.pdf"
+                download="CV-En-24.pdf"
+                className="flex items-center space-x-2"
+              >
+                <DocumentArrowDownIcon className="w-[4rem] h-[4rem] hover:text-yellow-400 transition-all duration-200 text-[#55e6a5] " />
+                <p className="text-[20px] font-semibold text-white">
+                  Download CV
+                </p>
+              </a>
               <button className="flex items-center space-x-2">
                 <PlayCircleIcon className="w-[4rem] h-[4rem] hover:text-yellow-400 transition-all duration-200 text-[#55e6a5] " />
                 <p className="text-[20px] font-semibold text-white">
@@ -59,17 +71,17 @@ const Hero = () => {
               src="/images/mdfv.jpg"
               alt="user"
               layout="fill"
-              className="object-cover rounded-full"
+              objectFit="cover"
+              className="rounded-full"
+              objectPosition="center top"
+              unoptimized
               style={{
-                objectPosition: "center center",
                 transform: "scale(.99993)",
               }}
-              unoptimized
             />
           </div>
         </div>
       </div>
-      <Particle />
     </section>
   );
 };

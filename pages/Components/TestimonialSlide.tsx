@@ -60,7 +60,7 @@ to similar roles as I described above."
         image="/images/bo.jpg"
         name="Bo Sandberg"
         role="Counsellor"
-        textFed=""
+        textFed="I highly recommend this individual for their exceptional forward-thinking and self-driven nature. Their enthusiasm and positive outlook significantly contribute to a productive work environment, inspiring those around them. They are proactive, taking initiative in tasks with a strong sense of loyalty and trustworthiness, making them a valuable asset to any team."
       />
     </Carousel>
   );
