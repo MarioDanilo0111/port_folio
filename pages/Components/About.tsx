@@ -1,5 +1,8 @@
 import React from "react";
-import { ArrowDownTrayIcon } from "@heroicons/react/20/solid";
+import {
+  ArrowDownTrayIcon,
+  DocumentArrowDownIcon,
+} from "@heroicons/react/20/solid";
 import Image from "next/legacy/image";
 
 const About = () => {
@@ -27,10 +30,20 @@ const About = () => {
                 meet but exceed expectations.
               </p>
             </div>
-            <button className="px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#55e6a5] text-black flex items-cemter space-x-2">
+            {/* <button className="px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#55e6a5] text-black flex items-cemter space-x-2">
               <p>Download CV</p>
               <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black" />
-            </button>
+            </button> */}
+            <a
+              href="/myCV/CV-En-24.pdf"
+              download="CV-En-24.pdf"
+              className="flex items-center space-x-2"
+            >
+              <DocumentArrowDownIcon className="w-[4rem] h-[4rem] hover:text-yellow-400 transition-all duration-200 text-[#55e6a5] " />
+              <p className="text-[20px] font-semibold text-white">
+                Download CV
+              </p>
+            </a>
           </div>
           <div
             data-aos="fade-down"
