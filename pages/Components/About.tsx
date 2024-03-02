@@ -47,11 +47,11 @@ const About = () => {
           </div>
           <div
             data-aos="fade-down"
-            className="lg:w-[260px] mx-auto md:mx-0 mt-[2rem] lg:mt-0 lg:h-[450px] w-[200px] h-[300px] relative"
+            className="lg:w-[260px] mx-auto md:mx-0 mt-[2rem] lg:mt-0 lg:h-[400px] w-[200px] h-[300px] relative"
           >
             <Image
               data-aos="flip-left"
-              src="/images/cartoon.webp"
+              src="/images/aboutM.webp"
               alt="user"
               layout="fill"
               objectFit="contain"

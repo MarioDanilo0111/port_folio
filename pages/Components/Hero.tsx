@@ -68,7 +68,7 @@ const Hero = () => {
             className="w-[450px] hidden bg-[#55e6a5] relative lg:flex items-center rounded-full h-[450px]"
           >
             <Image
-              src="/images/mdfv.jpg"
+              src="/images/mdfvS.webp"
               alt="user"
               layout="fill"
               objectFit="cover"
