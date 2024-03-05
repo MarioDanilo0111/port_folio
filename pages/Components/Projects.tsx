@@ -7,33 +7,43 @@ const Projects = () => {
       <div className="bg-[#02050a] pt-[7rem] md:pt-[8rem] pb-[1rem] ">
         <h1 className="heading">
           Pro
-          <span className="text-yellow-400">Cypress</span>
+          <span className="text-yellow-400">jects</span>
         </h1>
         <div className="w-[80%] pt-[2rem] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem] ">
           <div data-aos="fade-right">
-            <div className="transform cursor-pointer hover:rotate-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px] overflow-hidden rounded-lg">
-              <Image
-                src="/images/p1.jpg"
-                alt="portfolio"
-                layout="fill"
-                objectFit="contain"
-                /* className="object-contain" */
-              />
-            </div>
+            <a
+              href="https://github.com/MarioDanilo0111/NotesApp"
+              target="_blank"
+            >
+              <div className="transform cursor-pointer hover:rotate-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px] overflow-hidden rounded-lg">
+                <Image
+                  src="/images/notesApp.webp"
+                  alt="portfolio"
+                  layout="fill"
+                  objectFit="contain"
+                  /* className="object-contain" */
+                />
+              </div>
+            </a>
           </div>
           <div data-aos="fade-down" data-aos-delay="600">
-            <div
-              className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]
-              rounded-lg"
+            <a
+              href="https://github.com/MarioDanilo0111/femtioPro"
+              target="_blank"
             >
-              <Image
-                src="/images/p2.jpg"
-                alt="portfolio"
-                layout="fill"
-                objectFit="contain"
-                /* className="object-contain" */
-              />
-            </div>
+              <div
+                className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]
+              rounded-lg"
+              >
+                <Image
+                  src="/images/50pro.webp"
+                  alt="portfolio"
+                  layout="fill"
+                  objectFit="contain"
+                  /* className="object-contain" */
+                />
+              </div>
+            </a>
           </div>
           <div data-aos="fade-left" data-aos-delay="900">
             <div className="transform cursor-pointer hover:-rotate-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
