@@ -48,7 +48,7 @@ const Projects = () => {
           <div data-aos="fade-left" data-aos-delay="900">
             <div className="transform cursor-pointer hover:-rotate-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
               <Image
-                src="/images/p3.jpg"
+                src="/images/candyAxios.webp"
                 alt="portfolio"
                 layout="fill"
                 objectFit="contain"
