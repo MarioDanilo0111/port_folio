@@ -68,7 +68,7 @@ const Projects = () => {
             >
               <div className="transform cursor-pointer hover:-rotate-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
                 <Image
-                  src="/images/save-miwEX.webp"
+                  src="/images/save-miw.webp"
                   alt="portfolio"
                   layout="fill"
                   objectFit="contain"
