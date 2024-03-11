@@ -62,9 +62,13 @@ const Projects = () => {
             </a>
           </div>
           <div data-aos="fade-right" data-aos-delay="1200">
+            <a
+              href="https://github.com/MarioDanilo0111/SaveMusicAlbums"
+              target="_blank"
+            ></a>
             <div className="transform cursor-pointer hover:-rotate-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
               <Image
-                src="/images/p4.jpg"
+                src="/images/save-miwEX.webp"
                 alt="portfolio"
                 layout="fill"
                 objectFit="contain"
