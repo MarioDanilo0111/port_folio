@@ -79,13 +79,18 @@ const Projects = () => {
           </div>
           <div data-aos="fade-up" data-aos-delay="1500">
             <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
-              <Image
-                src="/images/p5.jpg"
-                alt="portfolio"
-                layout="fill"
-                objectFit="contain"
-                /* className="object-contain" */
-              />
+              <a
+                href="https://github.com/MarioDanilo0111/hackersNews-app"
+                target="_blank"
+              >
+                <Image
+                  src="/images/hackerNews.webp"
+                  alt="portfolio"
+                  layout="fill"
+                  objectFit="contain"
+                  /* className="object-contain" */
+                />
+              </a>
             </div>
           </div>
           <div data-aos="fade-left" data-aos-delay="1800">
