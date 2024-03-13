@@ -30,7 +30,7 @@ const Skills = () => {
           </div>
           <div className="">
             <SkillsItem
-              title="TypeScriprt Studies"
+              title="TypeScript Studies"
               fundation="Medie Institutet"
               year="2023"
               description="Advanced TypeScript knowledge for seasoned programmers, emphasizing quality assurance, code validation, and object-oriented programming practices. 
