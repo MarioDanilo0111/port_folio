@@ -46,8 +46,8 @@ const Hero = () => {
 
             <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6">
               <a
-                href="/myCV/CV-En-24.pdf"
-                download="CV-En-24.pdf"
+                href="/myCV/CV-2024-Portfolio English LinkedIn.pdf"
+                download="CV-2024-Portfolio English LinkedIn.pdf"
                 className="flex items-center space-x-2"
               >
                 <DocumentArrowDownIcon className="w-[4rem] h-[4rem] hover:text-yellow-400 transition-all duration-200 text-[#55e6a5] " />
