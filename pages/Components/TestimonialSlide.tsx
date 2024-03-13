@@ -48,13 +48,13 @@ to similar roles as I described above."
         image="/images/juan.jpg"
         name="Juan Enrique Fernandez"
         role="Software Engineer"
-        textFed=""
+        textFed="As a close family member and fellow developer, I've closely observed Mario's impressive dedication and skill set. His innovative approach and enthusiasm for technology are truly inspiring. Mario's collaborative spirit and positive outlook make him a valuable asset in any team. His commitment and trustworthiness are commendable, making me fully confident in recommending him for any endeavor in the tech world."
       />
       <Fedback
         image="/images/irena.jpg"
         name="Irena Levkova"
         role="SAP Application Consultant at Capgemini"
-        textFed=""
+        textFed="I've had the pleasure of working with Mario and am consistently impressed by his dedication and skill as a developer. Mario exhibits a forward-thinking mindset, demonstrating initiative and enthusiasm in every project. His positive attitude and ability to inspire teamwork makes him a valuable asset to any team. He is not only trustworthy but also deeply committed to his responsibilities, making him highly recommended for any endeavor he chooses to pursue."
       />
       <Fedback
         image="/images/bo.jpg"
