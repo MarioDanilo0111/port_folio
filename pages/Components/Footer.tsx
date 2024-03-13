@@ -21,7 +21,7 @@ const Footer = () => {
               Adress
             </h1>
             <p className="text-[17px] w-[90%] text-white opacity-60 ">
-              Lorem, ipsum dolor sit
+              Sweden, Stockholm Bandhagen.
             </p>
           </div>
         </div>
@@ -62,7 +62,7 @@ const Footer = () => {
       </div>
       <div className="w-[80%] mt-[2rem] mx-auto grid grid-cols-1 md:grid-cols-2 items-center justify-between ">
         <div className=" text-[18px] md-[2rem] md:mb-0 text-white opacity-20 ">
-          webDev warriors 2024 | all Rights Reserved
+          niloDev ninja 2024 | all Rights Reserved
         </div>
         <div className="flex items-center space-x-10 ">
           <p className="text-[16px] text-white opacity-20">
