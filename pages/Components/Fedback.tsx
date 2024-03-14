@@ -1,14 +1,16 @@
 import React from "react";
 import Image from "next/legacy/image";
 import { StarIcon } from "@heroicons/react/20/solid";
+import { link } from "fs";
 interface Props {
   name: string;
   role: string;
   image: string;
   textFed: string;
+  link: string;
 }
 
-const Feedback = ({ name, role, image, textFed }: Props) => {
+const Feedback = ({ name, role, image, textFed, link }: Props) => {
   return (
     <div className="flex flex-col text-center justify-center">
       <Image
@@ -26,7 +28,34 @@ const Feedback = ({ name, role, image, textFed }: Props) => {
         <StarIcon className="w-[2rem] h-[2rem] text-yellow-500 " />
         <StarIcon className="w-[2rem] h-[2rem] text-yellow-500 " />
       </div>
-      <h1 className="text-[25px] text-white mt-[1rem]">{name}</h1>
+      <a
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+        href={link}
+        target="_blank"
+        onClick={(e) => {
+          if (link === "") e.preventDefault();
+        }}
+      >
+        <div className="flex flex-row justify-center items-center hover:scale-105 duration-300">
+          <h1 className="text-[29px] text-white mt-[1rem]">{name}</h1>
+          {link !== "" && (
+            <img
+              style={{
+                marginLeft: "1.3rem",
+                marginTop: "1rem",
+                filter: "brightness(0) invert(1)",
+              }}
+              className="md:w-[1.9rem] md:h-[1.9rem] w-[1.3rem] h-[1.3rem] color-white"
+              src="/images/linkedin.svg"
+              alt="Linkedin"
+            />
+          )}
+        </div>
+      </a>
       <div className="w-full md:w-[90%] lg:w-[75%] xl:w-[60%] 2xl:w-[50%] mx-auto">
         <p className="role text-[18px] text-white opacity-75 mt-[0.5rem] mb-[3rem] mx-4 sm:mx-6 md:mx-8 break-words">
           {role}
