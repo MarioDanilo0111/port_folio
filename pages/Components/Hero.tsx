@@ -52,15 +52,21 @@ const Hero = () => {
               >
                 <DocumentArrowDownIcon className="w-[4rem] h-[4rem] hover:text-yellow-400 transition-all duration-200 text-[#55e6a5] " />
                 <p className="text-[20px] font-semibold text-white">
-                  Download CV
+                  CV English version
                 </p>
               </a>
-              {/* <button className="flex items-center space-x-2">
-                <PlayCircleIcon className="w-[4rem] h-[4rem] hover:text-yellow-400 transition-all duration-200 text-[#55e6a5] " />
-                <p className="text-[20px] font-semibold text-white">
-                  Watch The Video
-                </p>
-              </button> */}
+              <a
+                href="/myCV/CV-2024-Portfolio Swedish LinkedIn.pdf"
+                download="CV-2024-Portfolio Swedish LinkedIn.pdf"
+                className="flex items-center space-x-2"
+              >
+                <button className="flex items-center space-x-2">
+                  <DocumentArrowDownIcon className="w-[4rem] h-[4rem] hover:text-yellow-400 transition-all duration-200 text-[#55e6a5] " />
+                  <p className="text-[20px] font-semibold text-white">
+                    CV Swedish version
+                  </p>
+                </button>
+              </a>
             </div>
           </div>
           <div
