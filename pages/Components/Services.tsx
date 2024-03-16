@@ -37,8 +37,8 @@ const Services = () => {
                 <p className="text-[15px] text-[#d3d2d2] font-normal">
                   Dynamic web developer skilled in NEXT.JS, React, CMS, API
                   usage, SEO, responsive design, accessibility, agile
-                  methodologies, Git version control, and cross-functional
-                  collaboration.
+                  methodologies, Git version control, UI testing and
+                  cross-functional collaboration.
                 </p>
               </div>
             </div>
