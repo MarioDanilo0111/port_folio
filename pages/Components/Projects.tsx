@@ -195,7 +195,8 @@ const Projects = () => {
               <p className="text-[16px] text-slate-300 p-[1rem] mb-[0rem] ml-[1.9rem]">
                 Application for managing music album, including genres, release
                 years, and band names to the data structure. With a full CRUD
-                functionality for interacting, utilizing Node's JSON server.
+                functionality for interacting, utilizing Node&apos;s JSON
+                server.
               </p>
               <div className="flex items-center gap-[1rem] overflow-auto mb-[1.3rem] md:mb-[1.3rem]">
                 <div className="w-full ml:w-[5%] md:w-[6%] lg:w-[3%]">
