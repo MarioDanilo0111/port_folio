@@ -13,6 +13,9 @@ module.exports = {
       fontfamily: {
         primary: ["Poppins"],
       },
+      screens: {
+        ml: "425px",
+      },
     },
   },
   plugins: [],
