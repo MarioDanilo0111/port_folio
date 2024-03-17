@@ -43,16 +43,15 @@ const Feedback = ({ name, role, image, textFed, link }: Props) => {
         <div className="flex flex-row justify-center items-center hover:scale-105 duration-300">
           <h1 className="text-[29px] text-white mt-[1rem]">{name}</h1>
           {link !== "" && (
-            <img
-              style={{
-                marginLeft: "1.3rem",
-                marginTop: "1rem",
-                filter: "brightness(0) invert(1)",
-              }}
-              className="md:w-[1.9rem] md:h-[1.9rem] w-[1.3rem] h-[1.3rem] color-white"
-              src="/images/linkedin.svg"
-              alt="Linkedin"
-            />
+            <div className="ml-[1.3rem] mt-[1.3rem]">
+              <Image
+                width={20}
+                height={20}
+                className="md:w-[1.9rem] md:h-[1.9rem] w-[1.3rem] h-[1.3rem] color-white  filter brithness-200 invert bg-white"
+                src="/images/linkedin.svg"
+                alt="Linkedin"
+              />
+            </div>
           )}
         </div>
       </a>
