@@ -63,14 +63,14 @@ const TestimonialSlide = () => {
         image="/images/bo.webp"
         name="Bo Sandberg"
         role="Counsellor"
-        textFed="I highly recommend this individual for their exceptional forward-thinking and self-driven nature. Their enthusiasm and positive outlook significantly contribute to a productive work environment, inspiring those around them. They are proactive, taking initiative in tasks with a strong sense of loyalty and trustworthiness, making them a valuable asset to any team."
+        textFed="I highly recommend this individual for their exceptional forward-thinking and self-driven nature. Hi's enthusiasm and positive outlook significantly contribute to a productive work environment, inspiring those around him. he is proactive, taking initiative in tasks with a strong sense of loyalty and trustworthiness, making him a valuable asset to any team."
         link=""
       />
       <Fedback
         image="/images/henrik.webp"
         name="Henrik Chiang"
         role="Android Developer at Sigma Technology Cloud AB"
-        textFed="I've witnessed first-hand the exceptional dedication and effort Mario puts into their studies and tasks. Their commitment to excellence is evident in every achievement, approaching each challenge with a well-strategized and thorough method. Mario's ability to harmonize within any team is remarkable, always mindful and considerate of their peers, creating a positive and supportive work environment. I'm confident Mario would be an invaluable asset to any team, bringing not only their skills but also a commendable work ethic and interpersonal awareness."
+        textFed="I've witnessed in first-hand the exceptional dedication and effort Mario puts into his studies and tasks. His commitment to excellence is evident in every achievement, approaching each challenge with a well-strategized and thorough method. Mario's ability to harmonize within any team is remarkable, always mindful and considerate of his peers, creating a positive and supportive work environment. I'm confident Mario would be an invaluable asset to any team, bringing not only his skills but also a commendable work ethic and interpersonal awareness."
         link="https://www.linkedin.com/in/henrik-chiang-00185ba6/"
       />
     </Carousel>
