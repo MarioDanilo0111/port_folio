@@ -64,6 +64,7 @@ const Projects = () => {
                   alt="portfolio"
                   width={500}
                   height={300}
+                  className="rounded-xl"
                 />
               </div>
             </a>
@@ -121,6 +122,7 @@ const Projects = () => {
                   alt="portfolio"
                   width={500}
                   height={300}
+                  className="rounded-xl"
                 />
               </div>
             </a>
@@ -180,6 +182,7 @@ const Projects = () => {
                   alt="portfolio"
                   width={500}
                   height={300}
+                  className="rounded-xl"
                 />
               </div>
             </a>
@@ -238,6 +241,7 @@ const Projects = () => {
                   alt="portfolio"
                   width={500}
                   height={300}
+                  className="rounded-xl"
                 />
               </div>
             </a>
@@ -295,6 +299,7 @@ const Projects = () => {
                   alt="portfolio"
                   width={500}
                   height={300}
+                  className="rounded-xl"
                 />
               </div>
             </a>
@@ -359,6 +364,7 @@ const Projects = () => {
                   alt="portfolio"
                   width={500}
                   height={300}
+                  className="rounded-xl"
                 />
               </div>
             </a>
