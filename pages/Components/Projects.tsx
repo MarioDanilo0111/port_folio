@@ -10,16 +10,26 @@ const Projects = () => {
           Pro
           <span className="text-yellow-400">jects</span>
         </h1>
-        <div className="w-[90%] pt-[2rem] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-[6rem]">
+        <div className="w-[90%] pt-[2rem] mx-auto grid items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-[6rem]">
           <div data-aos="fade-right">
             <a
               href="https://github.com/MarioDanilo0111/NotesApp"
               target="_blank"
             >
-              <h2 className="text-[20px] md:text-[30px] lg:text-[40px] md:leading-[3rem] leading-[2rem] capitalize mb-[1rem] font-bold text-white">
-                Notes App
-              </h2>
-              <p className="text-[16px] text-slate-300 p-[1rem] mb-[1rem] ml-[1.9rem]">
+              <div className="flex items-center gap-[3%] ">
+                <h2 className="text-[20px] md:text-[30px] lg:text-[40px] md:leading-[3rem] leading-[2rem] mb-[1rem] font-bold text-white">
+                  Notes App
+                </h2>
+                <div className="w-full ms:w-[9%] ml:w-[9%] md:w-[9%] lg:w-[9%] mb-3">
+                  <ImageNext
+                    src="/icons/github-icon.webp"
+                    alt="githubOctocat"
+                    width={300}
+                    height={300}
+                  />
+                </div>
+              </div>
+              <p className="text-[16px] text-slate-300 mx-auto mb-[1rem] ml-[1.9rem]">
                 A full stack web application that allows users to create, read,
                 update, and delete notes. Security and user authentication are
                 bolstered by Passport and its Google OAuth2.0 strategy.
@@ -58,7 +68,7 @@ const Projects = () => {
                   />
                 </div>
               </div>
-              <div className="transform cursor-pointer hover:rotate-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
+              <div className="transform cursor-pointer hover:rotate-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px] flex items-center justify-center">
                 <Image
                   src="/images/notesApp.webp"
                   alt="portfolio"
@@ -74,9 +84,19 @@ const Projects = () => {
               href="https://github.com/MarioDanilo0111/femtioPro"
               target="_blank"
             >
-              <h1 className="text-[20px] md:text-[30px] lg:text-[40px] md:leading-[3rem] leading-[2rem] capitalize mb-[1rem] font-bold text-white">
-                Food Waste App
-              </h1>
+              <div className="flex items-center gap-[3%] ">
+                <h1 className="text-[20px] md:text-[30px] lg:text-[40px] md:leading-[3rem] leading-[2rem] capitalize mb-[1rem] font-bold text-white">
+                  Food Waste App
+                </h1>
+                <div className="w-full ms:w-[9%] ml:w-[9%] md:w-[9%] lg:w-[9%] mb-3">
+                  <ImageNext
+                    src="/icons/github-icon.webp"
+                    alt="githubOctocat"
+                    width={300}
+                    height={300}
+                  />
+                </div>
+              </div>
               <p className="text-[16px] text-slate-300 p-[1rem] mb-[1rem] ml-[1.9rem]">
                 This app is a web application built with React, utilizing
                 various dependencies for front-end design and functionality.
@@ -116,7 +136,7 @@ const Projects = () => {
                 </div>
               </div>
 
-              <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
+              <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px] flex items-center justify-center">
                 <Image
                   src="/images/50pro.webp"
                   alt="portfolio"
@@ -132,9 +152,19 @@ const Projects = () => {
               href="https://github.com/MarioDanilo0111/candycyberstorappImp"
               target="_blank"
             >
-              <h1 className="text-[20px] md:text-[30px] lg:text-[40px] md:leading-[3rem] leading-[2rem] capitalize mb-[1rem] font-bold text-white">
-                Candy Shop
-              </h1>
+              <div className="flex items-center gap-[3%] ">
+                <h1 className="text-[20px] md:text-[30px] lg:text-[40px] md:leading-[3rem] leading-[2rem] capitalize mb-[1rem] font-bold text-white">
+                  Candy Shop
+                </h1>
+                <div className="w-full ms:w-[9%] ml:w-[9%] md:w-[9%] lg:w-[9%] mb-3">
+                  <ImageNext
+                    src="/icons/github-icon.webp"
+                    alt="githubOctocat"
+                    width={300}
+                    height={300}
+                  />
+                </div>
+              </div>
               <p className="text-[16px] text-slate-300 p-[1rem] mb-[1rem] ml-[1.9rem]">
                 Project created during a TypeScript course, built with Axios.
                 Ability to respond with a bill of purchased items and quantity
@@ -176,7 +206,7 @@ const Projects = () => {
                 </div>
               </div>
 
-              <div className="transform cursor-pointer hover:-rotate-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
+              <div className="transform cursor-pointer hover:-rotate-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px] flex items-center justify-center">
                 <Image
                   src="/images/candyAxios.webp"
                   alt="portfolio"
@@ -192,9 +222,19 @@ const Projects = () => {
               href="https://github.com/MarioDanilo0111/SaveMusicAlbums"
               target="_blank"
             >
-              <h1 className="text-[20px] md:text-[30px] lg:text-[40px] md:leading-[3rem] leading-[2rem] capitalize mb-[0rem] font-bold text-white">
-                Music Album Manager
-              </h1>
+              <div className="flex items-center gap-[3%] ">
+                <h1 className="text-[20px] md:text-[30px] lg:text-[40px] md:leading-[3rem] leading-[2rem] capitalize mb-[0rem] font-bold text-white">
+                  Music Album Manager
+                </h1>
+                <div className="w-full ms:w-[9%] ml:w-[9%] md:w-[9%] lg:w-[9%] mb-1">
+                  <ImageNext
+                    src="/icons/github-icon.webp"
+                    alt="githubOctocat"
+                    width={300}
+                    height={300}
+                  />
+                </div>
+              </div>
               <p className="text-[16px] text-slate-300 p-[1rem] mb-[0rem] ml-[1.9rem]">
                 Application for managing music album, including genres, release
                 years, and band names to the data structure. With a full CRUD
@@ -235,7 +275,7 @@ const Projects = () => {
                   />
                 </div>
               </div>
-              <div className="transform cursor-pointer hover:-rotate-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
+              <div className="transform cursor-pointer hover:-rotate-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px] flex items-center justify-center">
                 <Image
                   src="/images/save-miw.webp"
                   alt="portfolio"
@@ -251,9 +291,19 @@ const Projects = () => {
               href="https://github.com/MarioDanilo0111/hackersNews-app"
               target="_blank"
             >
-              <h1 className="text-[20px] md:text-[30px] lg:text-[40px] md:leading-[3rem] leading-[2rem] capitalize mb-[0rem] font-bold text-white">
-                Hacker News
-              </h1>
+              <div className="flex items-center gap-[3%] ">
+                <h1 className="text-[20px] md:text-[30px] lg:text-[40px] md:leading-[3rem] leading-[2rem] capitalize mb-[0rem] font-bold text-white">
+                  Hacker News
+                </h1>
+                <div className="w-full ms:w-[9%] ml:w-[9%] md:w-[9%] lg:w-[9%] mb-1">
+                  <ImageNext
+                    src="/icons/github-icon.webp"
+                    alt="githubOctocat"
+                    width={300}
+                    height={300}
+                  />
+                </div>
+              </div>
               <p className="text-[16px] text-slate-300 p-[1rem] mb-[0rem] ml-[1.3rem]">
                 Application for fetching data from Hacker News API, structured
                 from the request parameters and efficiently organized using
@@ -293,7 +343,7 @@ const Projects = () => {
                   />
                 </div>
               </div>
-              <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
+              <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px] flex items-center justify-center">
                 <Image
                   src="/images/hackerNews.webp"
                   alt="portfolio"
@@ -313,10 +363,19 @@ const Projects = () => {
               href="https://github.com/MarioDanilo0111/Portfolio-CV"
               target="_balank"
             >
-              <h1 className="text-[20px] md:text-[30px] lg:text-[40px] md:leading-[3rem] leading-[2rem] capitalize  font-bold text-white">
-                First attempt Application
-              </h1>
-
+              <div className="flex items-center gap-[3%] ">
+                <h1 className="text-[20px] md:text-[30px] lg:text-[40px] md:leading-[3rem] leading-[2rem] capitalize  font-bold text-white">
+                  First attempt Application
+                </h1>
+                <div className="w-full ms:w-[9%] ml:w-[9%] md:w-[9%] lg:w-[9%] mb-1">
+                  <ImageNext
+                    src="/icons/github-icon.webp"
+                    alt="githubOctocat"
+                    width={300}
+                    height={300}
+                  />
+                </div>
+              </div>
               <p className="text-[16px] text-slate-300 p-[1rem] mb-[0rem] ml-[1.3rem]">
                 First project, doving into building a comprehensive app. I used
                 @emailjs/browser, handling email from the frontend, bootstrap
@@ -358,7 +417,7 @@ const Projects = () => {
                   />
                 </div>
               </div>
-              <div className="transform cursor-pointer hover:rotate-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
+              <div className="transform cursor-pointer hover:rotate-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px] flex items-center justify-center">
                 <Image
                   src="/images/beginersPortfolio.webp"
                   alt="portfolio"
