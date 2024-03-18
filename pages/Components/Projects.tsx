@@ -25,7 +25,7 @@ const Projects = () => {
                 bolstered by Passport and its Google OAuth2.0 strategy.
               </p>
               <div className="flex items-start gap-[1rem] overflow-auto mb-[1.3rem] md:mb-[1.3rem]">
-                <div className="w-full ml:w-[5%] md:w-[6%] lg:w-[3%]">
+                <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
                   <ImageNext
                     src="/icons/expressjs.webp"
                     alt="expressJs"
@@ -33,7 +33,7 @@ const Projects = () => {
                     height={300}
                   />
                 </div>
-                <div className="w-full ml:w-[4%] md:w-[6%] lg:w-[2%]">
+                <div className="w-full ms:w-[5%] ml:w-[4%] md:w-[6%] lg:w-[2%]">
                   <ImageNext
                     src="/icons/mongodb-icon.svg"
                     alt="mongoDB"
@@ -41,7 +41,7 @@ const Projects = () => {
                     height={300}
                   />
                 </div>
-                <div className="w-full ml:w-[5%] md:w-[6%] lg:w-[3%]">
+                <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
                   <ImageNext
                     src="/icons/API.webp"
                     alt="api"
@@ -49,7 +49,7 @@ const Projects = () => {
                     height={300}
                   />
                 </div>
-                <div className="w-full ml:w-[5%] md:w-[6%] lg:w-[2%]">
+                <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[2%]">
                   <ImageNext
                     src="/icons/passport.svg"
                     alt="passport"
@@ -81,7 +81,7 @@ const Projects = () => {
                 various dependencies for front-end design and functionality.
               </p>
               <div className="flex items-start gap-[1rem] overflow-auto mb-[1.3rem] md:mb-[1.3rem]">
-                <div className="w-full ml:w-[5%] md:w-[6%] lg:w-[3%]">
+                <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
                   <ImageNext
                     src="/icons/react.svg"
                     alt="reactJs"
@@ -89,7 +89,7 @@ const Projects = () => {
                     height={300}
                   />
                 </div>
-                <div className="w-full ml:w-[5%] md:w-[6%] lg:w-[3%]">
+                <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
                   <ImageNext
                     src="/icons/react-router.webp"
                     alt="react-router"
@@ -97,7 +97,7 @@ const Projects = () => {
                     height={300}
                   />
                 </div>
-                <div className="w-full ml:w-[5%] md:w-[6%] lg:w-[3%]">
+                <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
                   <ImageNext
                     src="/icons/javascript.webp"
                     alt="js"
@@ -105,7 +105,7 @@ const Projects = () => {
                     height={300}
                   />
                 </div>
-                <div className="w-full ml:w-[5%] md:w-[6%] lg:w-[3%]">
+                <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
                   <ImageNext
                     src="/icons/bootstrap.webp"
                     alt="bootstrap"
@@ -140,7 +140,7 @@ const Projects = () => {
               </p>
 
               <div className="flex items-center gap-[1rem] overflow-auto mb-[1.3rem] md:mb-[1.3rem]">
-                <div className="w-full ml:w-[5%] md:w-[6%] lg:w-[3%]">
+                <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
                   <ImageNext
                     src="/icons/vitejs.svg"
                     alt="js"
@@ -148,7 +148,7 @@ const Projects = () => {
                     height={300}
                   />
                 </div>
-                <div className="w-full ml:w-[5%] md:w-[6%] lg:w-[3%]">
+                <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
                   <ImageNext
                     src="/icons/axios.webp"
                     alt="axios"
@@ -156,7 +156,7 @@ const Projects = () => {
                     height={300}
                   />
                 </div>
-                <div className="w-full ml:w-[5%] md:w-[6%] lg:w-[3%]">
+                <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
                   <ImageNext
                     src="/icons/react-hooks.webp"
                     alt="rect-hooks"
@@ -164,7 +164,7 @@ const Projects = () => {
                     height={300}
                   />
                 </div>
-                <div className="w-full ml:w-[5%] md:w-[6%] lg:w-[3%]">
+                <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
                   <ImageNext
                     src="/icons/typescript-icon.webp"
                     alt="tys"
@@ -199,7 +199,7 @@ const Projects = () => {
                 server.
               </p>
               <div className="flex items-center gap-[1rem] overflow-auto mb-[1.3rem] md:mb-[1.3rem]">
-                <div className="w-full ml:w-[5%] md:w-[6%] lg:w-[3%]">
+                <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
                   <ImageNext
                     src="/icons/react.svg"
                     alt="react"
@@ -207,7 +207,7 @@ const Projects = () => {
                     height={300}
                   />
                 </div>
-                <div className="w-full ml:w-[5%] md:w-[6%] lg:w-[3%]">
+                <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
                   <ImageNext
                     src="/icons/nodejs-plain.webp"
                     alt="nodeJs"
@@ -215,7 +215,7 @@ const Projects = () => {
                     height={300}
                   />
                 </div>
-                <div className="w-full ml:w-[5%] md:w-[6%] lg:w-[3%]">
+                <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
                   <ImageNext
                     src="/icons/crud.webp"
                     alt="crud"
@@ -223,7 +223,7 @@ const Projects = () => {
                     height={300}
                   />
                 </div>
-                <div className="w-full ml:w-[5%] md:w-[6%] lg:w-[3%]">
+                <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
                   <ImageNext
                     src="/icons/typeJson.webp"
                     alt="typeJson"
@@ -256,7 +256,7 @@ const Projects = () => {
                 TypeScript for typing support.
               </p>
               <div className="flex items-center gap-[1rem] overflow-auto mb-[1rem] md:mb-[1.3rem]">
-                <div className="w-full ml:w-[5%] md:w-[6%] lg:w-[3%]">
+                <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
                   <ImageNext
                     src="/icons/vitejs.svg"
                     alt="viteJs"
@@ -264,7 +264,7 @@ const Projects = () => {
                     width={300}
                   />
                 </div>
-                <div className="w-full ml:w-[5%] md:w-[6%] lg:w-[3%]">
+                <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
                   <ImageNext
                     src="/icons/typescript-icon.webp"
                     alt="tys"
@@ -272,7 +272,7 @@ const Projects = () => {
                     width={300}
                   />
                 </div>
-                <div className="w-full ml:w-[5%] md:w-[6%] lg:w-[3%]">
+                <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
                   <ImageNext
                     src="/icons/axios.webp"
                     alt="axios"
@@ -280,7 +280,7 @@ const Projects = () => {
                     width={300}
                   />
                 </div>
-                <div className="w-full ml:w-[5%] md:w-[6%] lg:w-[3%]">
+                <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
                   <ImageNext
                     src="/icons/node-sass.webp"
                     alt="nodeJs"
@@ -320,7 +320,7 @@ const Projects = () => {
                 developing with React.
               </p>
               <div className="flex items-center gap-[1rem] overflow-auto mb-[1rem] md:mb-[1.3rem]">
-                <div className="w-full ml:w-[5%] md:w-[6%] lg:w-[3%]">
+                <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
                   <ImageNext
                     src="/icons/react.svg"
                     alt="reactJs"
@@ -328,7 +328,7 @@ const Projects = () => {
                     width={300}
                   />
                 </div>
-                <div className="w-full ml:w-[5%] md:w-[6%] lg:w-[3%]">
+                <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
                   <ImageNext
                     src="/icons/emailJs.webp"
                     alt="emailJs"
@@ -336,7 +336,7 @@ const Projects = () => {
                     width={300}
                   />
                 </div>
-                <div className="w-full ml:w-[5%] md:w-[6%] lg:w-[3%]">
+                <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
                   <ImageNext
                     src="/icons/bootstrap.webp"
                     alt="crud"
@@ -344,7 +344,7 @@ const Projects = () => {
                     width={300}
                   />
                 </div>
-                <div className="w-full ml:w-[5%] md:w-[6%] lg:w-[3%]">
+                <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
                   <ImageNext
                     src="/icons/react-router.webp"
                     alt="reactRouter"
