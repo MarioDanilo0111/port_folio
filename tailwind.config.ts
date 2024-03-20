@@ -14,8 +14,9 @@ module.exports = {
         primary: ["Poppins"],
       },
       screens: {
+        md: "769px",
         ml: "425px",
-        ms: "375px",
+        ms: "319px",
       },
     },
   },

@@ -34,7 +34,7 @@ const Projects = () => {
                 update, and delete notes. Security and user authentication are
                 bolstered by Passport and its Google OAuth2.0 strategy.
               </p>
-              <div className="flex items-start gap-[1rem] overflow-auto mb-[1.3rem] md:mb-[1.3rem]">
+              <div className="flex items-start gap-[1rem] overflow-auto mb-[3rem] md:mb-[1.3rem] ms:mb-[1rem] ml:mb-[3rem]">
                 <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
                   <ImageNext
                     src="/icons/expressjs.webp"
@@ -68,7 +68,7 @@ const Projects = () => {
                   />
                 </div>
               </div>
-              <div className="transform cursor-pointer hover:rotate-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px] flex items-center justify-center">
+              <div className="transform cursor-pointer hover:rotate-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]  flex items-center justify-center">
                 <Image
                   src="/images/notesApp.webp"
                   alt="portfolio"
@@ -101,8 +101,8 @@ const Projects = () => {
                 This app is a web application built with React, utilizing
                 various dependencies for front-end design and functionality.
               </p>
-              <div className="flex items-start gap-[1rem] overflow-auto mb-[1.3rem] md:mb-[1.3rem]">
-                <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
+              <div className="flex items-start gap-[1rem] overflow-auto mb-[3.6rem] md:mb-[1.3rem] ms:mb-[1rem] ml:mb-[3.6rem]">
+                <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%] ">
                   <ImageNext
                     src="/icons/react.svg"
                     alt="reactJs"
@@ -171,7 +171,7 @@ const Projects = () => {
                 that will be delivered to the provided address.
               </p>
 
-              <div className="flex items-center gap-[1rem] overflow-auto mb-[1.3rem] md:mb-[1.3rem]">
+              <div className="flex items-center gap-[1rem] overflow-auto mb-[3.6rem] md:mb-[1.3rem] ms:mb-[1rem] ml:mb-[3.6rem]">
                 <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
                   <ImageNext
                     src="/icons/vitejs.svg"
@@ -241,7 +241,7 @@ const Projects = () => {
                 functionality for interacting, utilizing Node&apos;s JSON
                 server.
               </p>
-              <div className="flex items-center gap-[1rem] overflow-auto mb-[1.3rem] md:mb-[1.3rem]">
+              <div className="flex items-center gap-[1rem] overflow-auto mb-[3.6rem] md:mb-[1.3rem] ms:mb-[1rem] ml:mb-[3.6rem]">
                 <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
                   <ImageNext
                     src="/icons/react.svg"
@@ -309,7 +309,7 @@ const Projects = () => {
                 from the request parameters and efficiently organized using
                 TypeScript for typing support.
               </p>
-              <div className="flex items-center gap-[1rem] overflow-auto mb-[1rem] md:mb-[1.3rem]">
+              <div className="flex items-center gap-[1rem] overflow-auto mb-[3.6rem] md:mb-[1.3rem] ms:mb-[1rem] ml:mb-[5rem]">
                 <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
                   <ImageNext
                     src="/icons/vitejs.svg"
@@ -383,7 +383,7 @@ const Projects = () => {
                 project was a significant milestone in my coding journey
                 developing with React.
               </p>
-              <div className="flex items-center gap-[1rem] overflow-auto mb-[1rem] md:mb-[1.3rem]">
+              <div className="flex items-center gap-[1rem] overflow-auto mb-[3.6rem] md:mb-[1.3rem] ms:mb-[1rem] ml:mb-[3.6rem]">
                 <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
                   <ImageNext
                     src="/icons/react.svg"
