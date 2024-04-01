@@ -5,8 +5,8 @@ import { useEffect } from "react";
 import AOS, { refresh } from "aos";
 import "aos/dist/aos.css"; // Import AOS styles
 import Head from "next/head";
-import { seoProps } from "./hooks/SeoProps";
-import { useSEO } from "./hooks/useSEO";
+import { seoProps } from "../project-hooks/hooks/SeoProps";
+import { useSEO } from "../project-hooks/hooks/useSEO";
 
 export default function App({ Component, pageProps }: AppProps) {
   const { title, description, author } = useSEO(seoProps);

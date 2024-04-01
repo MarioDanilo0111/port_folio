@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { TypesSeo } from "../hooks/TypesSeo";
+import { TypesSeo } from "./TypesSeo";
 
 export const useSEO = ({ title, description, author }: TypesSeo) => {
   useEffect(() => {
