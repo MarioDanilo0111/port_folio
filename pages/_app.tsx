@@ -4,12 +4,12 @@ import { useEffect } from "react";
 
 import AOS, { refresh } from "aos";
 import "aos/dist/aos.css"; // Import AOS styles
-
-/* import { useRouter } from "next/router"; */
+import Head from "next/head";
+import { seoProps } from "./hooks/SeoProps";
+import { useSEO } from "./hooks/useSEO";
 
 export default function App({ Component, pageProps }: AppProps) {
-  /* const router = useRouter(); */
-
+  const { title, description, author } = useSEO(seoProps);
   useEffect(() => {
     // You can also pass an optional settings object
     // below listed default settings
@@ -34,5 +34,14 @@ export default function App({ Component, pageProps }: AppProps) {
       anchorPlacement: "top-bottom", // defines which position of the element regarding to window should trigger the animation
     });
   }, []);
-  return <Component {...pageProps} />;
+  return (
+    <>
+      <Head>
+        <title>{title}</title>
+        <meta name="description" content={description} />
+        <meta name="author" content={author} />
+      </Head>
+      <Component {...pageProps} />
+    </>
+  );
 }
