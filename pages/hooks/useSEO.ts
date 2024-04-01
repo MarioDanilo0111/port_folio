@@ -8,7 +8,7 @@ export const useSEO = ({ title, description, author }: TypesSeo) => {
     if (metaDescription) metaDescription.setAttribute("content", description);
 
     const metaAuthor = document.querySelector("meta[name='author']");
-    if (metaDescription) metaDescription.setAttribute("author", author);
+    if (metaAuthor) metaAuthor.setAttribute("author", author);
   }, [title, description, author]);
   return {
     title,
