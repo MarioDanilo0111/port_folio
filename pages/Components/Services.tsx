@@ -11,7 +11,7 @@ const Services = () => {
       <div className="bg-[#121212] pt-[7rem] md:pt-[8rem] pb-[5rem]">
         <div className="">
           <p className="heading">
-            My <span className="text-yellow-400">Services</span>
+            Work <span className="text-yellow-400">Area</span>
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[80%] mx-auto items-center gap-[3rem] mt-[4rem] text-white">
             <div data-aos="fade-right">

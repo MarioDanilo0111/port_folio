@@ -21,10 +21,10 @@ const HomePage = () => {
         <Nav openNav={openNav} />
         <Hero />
         <div className="relative z-[30]">
+          <Projects />
           <About />
           <Skills />
           <Services />
-          <Projects />
           <Testimonial />
           <Footer />
         </div>
