@@ -20,11 +20,15 @@ const About = () => {
             <div className="mb-[3rem] flex items-center md:space-x-10">
               {/* <span className="w-[100px] hidden md:block h-[5px] bg-slate-400 rounded-sm"></span> */}
               <p className="text-[19px] text-slate-300 w-full md:w-[80%]">
-                Motivated individual with a focus on order, planning, and
-                structure. Successful completion of studies expanded skills and
-                horizons. Thrives on positive challenges, inspiring continuous
-                growth. Enthusiastic about contributing, acquiring knowledge,
-                and making a positive impact on the industry. <br />
+                Motivated individual with a strong focus on order, planning, and
+                structure. Successful completion of studies in Frontend
+                Development and ongoing education in Python, focused on machine
+                learning and AI, have significantly expanded my skills and
+                horizons. I thrive on positive challenges that inspire
+                continuous growth and am committed to my educational and
+                professional development. I am enthusiastic about contributing
+                to the industry, acquiring cutting-edge knowledge, and making a
+                significant positive impact. <br />
                 With a passion for Frontend development, I am dedicated to
                 crafting seamless and engaging user experiences that not only
                 meet but exceed expectations.
