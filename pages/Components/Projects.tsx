@@ -354,18 +354,14 @@ const Projects = () => {
               </div>
             </a>
           </div>
-          <div
-            data-aos="fade-left"
-            data-aos-delay="1800"
-            /* className="flex items-center" */
-          >
+          <div data-aos="fade-left" data-aos-delay="1800">
             <a
-              href="https://github.com/MarioDanilo0111/Portfolio-CV"
+              href="https://github.com/MarioDanilo0111/Lexicon_Project"
               target="_balank"
             >
               <div className="flex items-center gap-[3%] ">
                 <h1 className="text-[20px] md:text-[30px] lg:text-[40px] md:leading-[3rem] leading-[2rem] capitalize  font-bold text-white">
-                  First attempt Application
+                  Python Lexicon AI Project
                 </h1>
                 <div className="w-full ms:w-[9%] ml:w-[9%] md:w-[9%] lg:w-[9%] mb-1">
                   <ImageNext
@@ -377,41 +373,41 @@ const Projects = () => {
                 </div>
               </div>
               <p className="text-[16px] text-slate-300 p-[1rem] mb-[0rem] ml-[1.3rem]">
-                First project, doving into building a comprehensive app. I used
-                @emailjs/browser, handling email from the frontend, bootstrap
-                and for responsive UI design, router-dom for navigation. This
-                project was a significant milestone in my coding journey
-                developing with React.
+                My first attempt at building an application using Python. Using
+                AI intelligens and Streamlit interface options. This project was
+                a significant milestone in my coding journey, developing an idee
+                that could be scaled to be a more powerful solution for
+                developers when understanding complex programming concepts.
               </p>
               <div className="flex items-center gap-[1rem] overflow-auto mb-[3.6rem] md:mb-[1.3rem] ms:mb-[1rem] ml:mb-[3.6rem]">
-                <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
+                <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[8%]">
                   <ImageNext
-                    src="/icons/react.svg"
-                    alt="reactJs"
+                    src="/icons/streamlit_py.svg"
+                    alt="streamlit"
                     height={300}
                     width={300}
                   />
                 </div>
-                <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
+                <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[6%]">
                   <ImageNext
-                    src="/icons/emailJs.webp"
-                    alt="emailJs"
+                    src="/icons/Pandas.png"
+                    alt="pandas_py"
                     height={300}
                     width={300}
                   />
                 </div>
-                <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
+                <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[6%]">
                   <ImageNext
-                    src="/icons/bootstrap.webp"
-                    alt="crud"
+                    src="/icons/scikit-learn.png"
+                    alt="scikit-learn-python"
                     height={300}
                     width={300}
                   />
                 </div>
-                <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
+                <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[9%]">
                   <ImageNext
-                    src="/icons/react-router.webp"
-                    alt="reactRouter"
+                    src="/icons/plotly_py.webp"
+                    alt="plotython"
                     height={300}
                     width={300}
                   />
@@ -419,8 +415,8 @@ const Projects = () => {
               </div>
               <div className="transform cursor-pointer hover:rotate-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px] flex items-center justify-center">
                 <Image
-                  src="/images/beginersPortfolio.webp"
-                  alt="portfolio"
+                  src="/images/lex_py_app.webp"
+                  alt="lexicon_app"
                   width={500}
                   height={300}
                   className="rounded-xl"

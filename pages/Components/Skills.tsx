@@ -30,6 +30,24 @@ const Skills = () => {
           </div>
           <div className="">
             <SkillsItem
+              title="Python for AI Development"
+              fundation="IT-Högskolan"
+              year="2024"
+              description="Provides in-depth knowledge of Python syntax and object-oriented programming, using Git for version control, AI concepts and ethical considerations, data processing and visualization, and machine learning with Scikit-learn, TensorFlow, and Keras."
+            />
+            <SkillsLanguage
+              skill1="NUMPY"
+              skill2="PANDAS"
+              skill3="STREAMLIT"
+              skill4="SCIKIT-LEARN"
+              level1="w-[90%]"
+              level2="w-[80%]"
+              level3="w-[80%]"
+              level4="w-[70%]"
+            />
+          </div>
+          <div className="">
+            <SkillsItem
               title="TypeScript Studies"
               fundation="Medie Institutet"
               year="2023"
