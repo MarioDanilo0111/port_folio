@@ -2,6 +2,44 @@ import React from "react";
 import SkillsItem from "./SkillsItem";
 import SkillsLanguage from "./SkillsLanguage";
 
+import skillCss from "../../public/icons/bootstrap.webp";
+import skillGit from "../../public/icons/github-icon.webp";
+import {
+  SkillJavaScript,
+  /* SkillCss,
+  SkillGit, */
+  SkillApi,
+  SkillBootstrap,
+  SkillCrud,
+  SkillMailJs,
+  SkillExpressjs,
+  SkillHtml5,
+  SkillGithub,
+  SkillNodeSass,
+  SkillNodejsPlain,
+  SkillNumpy,
+  SkillAxios,
+  SkillMongodb,
+  SkillPandas,
+  SkillPlotly_py,
+  SkillReactHooks,
+  SkillReact_Router,
+  SkillReactRouter,
+  SkillReact,
+  SkillScikitLearn,
+  SkillStreamlit_py,
+  SkillStreamlit,
+  SkillStreamlitPy,
+  SkillTypeJson,
+  SkillTypescriptIcon,
+  SkillVitejs,
+  SkillPassport_google,
+  SkillPassportLogo,
+  SkillPassportSvg,
+  /* SkillPassport,
+  SkillPlotly, */
+} from "../imageImport";
+
 const Skills = () => {
   return (
     <section id="skills">
@@ -22,10 +60,14 @@ const Skills = () => {
               skill2="HTML5"
               skill3="CSS3"
               skill4="GIT"
-              level1="w-[91%]"
-              level2="w-[88%]"
-              level3="w-[80%]"
-              level4="w-[80%]"
+              level1={10}
+              level2={88}
+              level3={80}
+              level4={30}
+              skill1Imagen={SkillJavaScript}
+              skill2Imagen={SkillHtml5}
+              skill3Imagen={skillCss}
+              skill4Imagen={skillGit}
             />
           </div>
           <div className="">
@@ -40,10 +82,14 @@ const Skills = () => {
               skill2="PANDAS"
               skill3="STREAMLIT"
               skill4="SCIKIT-LEARN"
-              level1="w-[90%]"
-              level2="w-[80%]"
-              level3="w-[80%]"
-              level4="w-[70%]"
+              level1={90}
+              level2={80}
+              level3={80}
+              level4={70}
+              skill1Imagen={SkillNumpy}
+              skill2Imagen={SkillPandas}
+              skill3Imagen={SkillStreamlit}
+              skill4Imagen={SkillScikitLearn}
             />
           </div>
           <div className="">
@@ -59,10 +105,14 @@ const Skills = () => {
               skill2="INTERFACE"
               skill3="UNIONS"
               skill4="MODULES"
-              level1="w-[90%]"
-              level2="w-[88%]"
-              level3="w-[80%]"
-              level4="w-[79%]"
+              level1={90}
+              level2={88}
+              level3={80}
+              level4={79}
+              skill1Imagen={SkillTypescriptIcon}
+              skill2Imagen={SkillAxios}
+              skill3Imagen={SkillTypeJson}
+              skill4Imagen={SkillExpressjs}
             />
           </div>
           <div className="">
@@ -77,10 +127,14 @@ const Skills = () => {
               skill2="Control Structures"
               skill3="Arrays"
               skill4="Principles of O.O.P."
-              level1="w-[91%]"
-              level2="w-[88%]"
-              level3="w-[80%]"
-              level4="w-[86%]"
+              level1={91}
+              level2={88}
+              level3={80}
+              level4={86}
+              skill1Imagen={SkillJavaScript}
+              skill2Imagen={SkillJavaScript}
+              skill3Imagen={SkillJavaScript}
+              skill4Imagen={SkillJavaScript}
             />
           </div>
         </div>
