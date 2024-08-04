@@ -2,15 +2,22 @@ import SkillApi from "../public/icons/API.webp";
 import SkillAxios from "../public/icons/axios.webp";
 import SkillBootstrap from "../public/icons/bootstrap.webp";
 import SkillCrud from "../public/icons/crud.webp";
+import SkillsCss3 from "../public/icons/css-3.webp";
 import SkillMailJs from "../public/icons/emailJs.webp";
 import SkillExpressjs from "../public/icons/expressjs.webp";
 import SkillHtml5 from "../public/icons/html5.png";
 import SkillGithub from "../public/icons/github-icon.webp";
+import SkillGit from "../public/icons/git.webp";
 import SkillJavaScript from "../public/icons/javascript.webp";
 import SkillMongodb from "../public/icons/mongodb.webp";
 import SkillNodeSass from "../public/icons/node-sass.webp";
 import SkillNumpy from "../public/icons/numPy.png";
-import SkillNodejsPlain from "../public/icons/nodejs-plain.webp";
+import SkillNodejs from "../public/icons/nodejs.webp";
+import SkillPostman from "../public/icons/postman.webp";
+import SkillCMS from "../public/icons/cms.webp";
+import SkillSEO from "../public/icons/seo.webp";
+import SkillCrossPlatform from "../public/icons/cross-platform.webp";
+import SkillUxUi from "../public/icons/ux-ui.webp";
 import SkillPandas from "../public/icons/Pandas.png";
 import SkillPassport_google from "../public/icons/passport_google.webp";
 import SkillPassportLogo from "../public/icons/passport-logo.webp";
@@ -33,15 +40,22 @@ export {
   SkillAxios,
   SkillBootstrap,
   SkillCrud,
+  SkillsCss3,
   SkillMailJs,
   SkillExpressjs,
   SkillHtml5,
   SkillGithub,
+  SkillGit,
   SkillJavaScript,
   SkillMongodb,
   SkillNodeSass,
+  SkillPostman,
+  SkillCMS,
+  SkillSEO,
+  SkillCrossPlatform,
+  SkillUxUi,
   SkillNumpy,
-  SkillNodejsPlain,
+  SkillNodejs,
   SkillPandas,
   SkillPassport_google,
   SkillPassportLogo,
