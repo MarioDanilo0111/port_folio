@@ -20,11 +20,14 @@ const SkillsLanguage: React.FC<Props> = ({ skills: skillsData }) => {
   };
 
   return (
-    <div className="grid  w-[100%] h-[100%]  grid-cols-4 md:grid-cols-4 lg:grid-cols-4 justify-items-center">
+    <div
+      className="grid w-full h-full grid-cols-4 
+    sm:grid-cols-6 md:grid-cols-4 lg:grid-cols-4 justify-items-center gap-7 p-4"
+    >
       {skillsData.map(({ skill, skillImagen, level }, index) => (
         <div
           key={index}
-          className="relative flex items-center justify-center w-[100%] h-[100%] md:w-[2.3rem] md:h-[2.3rem] lg:w-[2.9rem] lg:h-[2.9rem]"
+          className="relative flex items-center justify-center w-[3.3rem] h-[3.3rem] sm:w-[2.3rem] sm:h-[2.3rem]  md:w-[2.3rem] md:h-[2.3rem] lg:w-[3.9rem] lg:h-[3.9rem] p-1  bg-slate-800 rounded-full"
         >
           <svg className="absolute w-full h-full" viewBox="0 0 100 100">
             <circle
@@ -52,12 +55,9 @@ const SkillsLanguage: React.FC<Props> = ({ skills: skillsData }) => {
             <img
               src={skillImagen.src}
               alt={`${skill} icon`}
-              className="relative z-10 w-[50%] h-[50%]"
+              className="relative z-10 max-w-[60%] max-h-[60%] object-contain"
             />
           )}
-          {/* <span className="absolute text-white text-xs md:text-sm lg:text-base">
-              {level}
-              </span> */}
         </div>
       ))}
     </div>

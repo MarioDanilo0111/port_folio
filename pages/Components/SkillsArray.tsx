@@ -35,6 +35,11 @@ import {
   SkillPassportLogo,
   SkillPassportSvg,
   SkillGit,
+  SkillVitejsWebP,
+  SkillTerminal,
+  SkillArrayCsharp,
+  SkillOOP,
+  SkillC_Sharp,
   /* SkillPassport,
   SkillPlotly, */
 } from "../imageImport";
@@ -66,6 +71,7 @@ const SkillsArray = [
       { skill: "NODE.JS", level: 90, skillImagen: SkillNodejs },
       { skill: "API", level: 70, skillImagen: SkillApi },
       { skill: "MongoDB", level: 90, skillImagen: SkillMongodb },
+      { skill: "ExpressJS", level: 79, skillImagen: SkillExpressjs },
     ],
   },
 
@@ -92,10 +98,11 @@ const SkillsArray = [
       "Advanced TypeScript knowledge for seasoned programmers, emphasizing quality assurance, code validation, and object-oriented programming practices. Expertise in transpiling JavaScript with TypeScript to ensure robust, maintainable, and scalable code.",
 
     SkillsLanguage: [
-      { skill: "TYPES", level: 90, skillImagen: SkillTypescriptIcon },
-      { skill: "INTERFACE", level: 88, skillImagen: SkillAxios },
-      { skill: "UNIONS", level: 80, skillImagen: SkillTypeJson },
-      { skill: "MODULES", level: 79, skillImagen: SkillExpressjs },
+      { skill: "ViteJs", level: 70, skillImagen: SkillVitejsWebP },
+      { skill: "TypeJson", level: 80, skillImagen: SkillTypeJson },
+      { skill: "Bootstrap", level: 80, skillImagen: SkillBootstrap },
+      { skill: "Axios", level: 80, skillImagen: SkillAxios },
+      { skill: "Crud", level: 80, skillImagen: SkillCrud },
     ],
   },
 
@@ -108,20 +115,21 @@ const SkillsArray = [
 
     SkillsLanguage: [
       {
+        skill: "C_Shaerp",
+        level: 50,
+        skillImagen: SkillC_Sharp,
+      },
+      {
         skill: "Console Environment",
         level: 91,
-        skillImagen: SkillJavaScript,
+        skillImagen: SkillTerminal,
       },
       {
-        skill: "Control Structures",
-        level: 88,
-        skillImagen: SkillJavaScript,
-      },
-      {
-        skill: "Arrays",
+        skill: "ArraysC#",
         level: 80,
-        skillImagen: SkillJavaScript,
+        skillImagen: SkillArrayCsharp,
       },
+      { skill: "OOP", level: 80, skillImagen: SkillOOP },
     ],
   },
 ];
