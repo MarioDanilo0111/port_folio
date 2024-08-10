@@ -34,7 +34,7 @@ import SkillStreamlitPy from "../public/icons/streamlitPy.webp";
 import SkillTypeJson from "../public/icons/typeJson.webp";
 import SkillTypescriptIcon from "../public/icons/typescript-icon.webp";
 import SkillVitejs from "../public/icons/vitejs.svg";
-import SkillVitejsWebP from "../public/icons/vitejs.webp";
+import SkillVitejsWebP from "../public/icons/viteJs.webp";
 import SkillTerminal from "../public/icons/terminal.webp";
 import SkillArrayCsharp from "../public/icons/arrayC.webp";
 import SkillOOP from "../public/icons/OOP.webp";
