@@ -1,5 +1,5 @@
 import React from "react";
-import { StaticImageData } from "next/image";
+import Image, { StaticImageData } from "next/image";
 
 interface skillsArray {
   skill: string;
@@ -52,9 +52,10 @@ const SkillsLanguage: React.FC<Props> = ({ skills: skillsData }) => {
             />
           </svg>
           {skillImagen && (
-            <img
+            <Image
               src={skillImagen.src}
               alt={`${skill} icon`}
+              layout="intrinsic"
               className="relative z-10 max-w-[60%] max-h-[60%] object-contain"
             />
           )}
