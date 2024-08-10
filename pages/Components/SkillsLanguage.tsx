@@ -55,7 +55,8 @@ const SkillsLanguage: React.FC<Props> = ({ skills: skillsData }) => {
             <Image
               src={skillImagen.src}
               alt={`${skill} icon`}
-              layout="intrinsic"
+              width={50}
+              height={50}
               className="relative z-10 max-w-[60%] max-h-[60%] object-contain"
             />
           )}

@@ -42,7 +42,7 @@ import {
   SkillC_Sharp,
   /* SkillPassport,
   SkillPlotly, */
-} from "../imageImport";
+} from "./imageImport";
 
 const SkillsArray = [
   {
