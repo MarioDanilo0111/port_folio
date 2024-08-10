@@ -45,7 +45,7 @@ const Projects = () => {
                 </div>
                 <div className="w-full ms:w-[5%] ml:w-[4%] md:w-[6%] lg:w-[2%]">
                   <ImageNext
-                    src="/icons/mongodb-icon.svg"
+                    src="/icons/mongodb.webp"
                     alt="mongoDB"
                     width={300}
                     height={300}
