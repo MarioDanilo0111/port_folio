@@ -19,6 +19,9 @@ const SkillsLanguage: React.FC<Props> = ({ skills: skillsData }) => {
     return circleCircumference - (level * circleCircumference) / 100;
   };
 
+  if (!skillsData || skillsData.length === 0) {
+    return <p>No Skills avilable</p>;
+  }
   return (
     <div
       className="grid w-full h-full grid-cols-4 
