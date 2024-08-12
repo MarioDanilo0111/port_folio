@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
+/* JetBrains Mono */
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+
+/* Graduate  */
+@import url("https://fonts.googleapis.com/css2?family=Graduate&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -14,5 +20,13 @@
 
   .heading {
     @apply text-center text-white text-[28px] sm:text-[33px] md:text-[45px] font-bold uppercase mx-4 sm:mx-6 md:mx-8;
+  }
+
+  .JetBrains {
+    font-family: "JetBrains Mono", monospace;
+  }
+
+  .Graduate {
+    font-family: "Graduate", serif;
   }
 }

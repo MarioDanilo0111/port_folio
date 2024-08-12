@@ -1,6 +1,5 @@
 import React from "react";
-import Image from "next/legacy/image";
-import ImageNext from "next/image";
+import Image from "next/image";
 
 const Projects = () => {
   return (
@@ -21,7 +20,7 @@ const Projects = () => {
                   Notes App
                 </h2>
                 <div className="w-full ms:w-[9%] ml:w-[9%] md:w-[9%] lg:w-[9%] mb-3">
-                  <ImageNext
+                  <Image
                     src="/icons/github-icon.webp"
                     alt="githubOctocat"
                     width={300}
@@ -34,9 +33,9 @@ const Projects = () => {
                 update, and delete notes. Security and user authentication are
                 bolstered by Passport and its Google OAuth2.0 strategy.
               </p>
-              <div className="flex items-start gap-[1rem] overflow-auto mb-[3rem] md:mb-[1.3rem] ms:mb-[1rem] ml:mb-[3rem]">
+              <div className="flex items-start gap-[1rem] overflow-auto mb-[3rem] md:mb-[1.3rem] ms:mb-[1rem] lg:mb-[3rem]">
                 <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
-                  <ImageNext
+                  <Image
                     src="/icons/expressjs.webp"
                     alt="expressJs"
                     width={300}
@@ -44,7 +43,7 @@ const Projects = () => {
                   />
                 </div>
                 <div className="w-full ms:w-[5%] ml:w-[4%] md:w-[6%] lg:w-[2%]">
-                  <ImageNext
+                  <Image
                     src="/icons/mongodb.webp"
                     alt="mongoDB"
                     width={300}
@@ -52,7 +51,7 @@ const Projects = () => {
                   />
                 </div>
                 <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
-                  <ImageNext
+                  <Image
                     src="/icons/API.webp"
                     alt="api"
                     width={300}
@@ -60,7 +59,7 @@ const Projects = () => {
                   />
                 </div>
                 <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[2%]">
-                  <ImageNext
+                  <Image
                     src="/icons/passport.svg"
                     alt="passport"
                     width={300}
@@ -75,6 +74,7 @@ const Projects = () => {
                   width={500}
                   height={300}
                   className="rounded-xl"
+                  style={{ width: "auto", height: "auto" }}
                 />
               </div>
             </a>
@@ -89,7 +89,7 @@ const Projects = () => {
                   Food Waste App
                 </h1>
                 <div className="w-full ms:w-[9%] ml:w-[9%] md:w-[9%] lg:w-[9%] mb-3">
-                  <ImageNext
+                  <Image
                     src="/icons/github-icon.webp"
                     alt="githubOctocat"
                     width={300}
@@ -101,9 +101,9 @@ const Projects = () => {
                 This app is a web application built with React, utilizing
                 various dependencies for front-end design and functionality.
               </p>
-              <div className="flex items-start gap-[1rem] overflow-auto mb-[3.6rem] md:mb-[1.3rem] ms:mb-[1rem] ml:mb-[3.6rem]">
+              <div className="flex items-start gap-[1rem] overflow-auto mb-[3.6rem] md:mb-[1.3rem] ms:mb-[1rem] ml:mb-[3.6rem] lg:mb-[3rem]">
                 <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%] ">
-                  <ImageNext
+                  <Image
                     src="/icons/react.svg"
                     alt="reactJs"
                     width={300}
@@ -111,7 +111,7 @@ const Projects = () => {
                   />
                 </div>
                 <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
-                  <ImageNext
+                  <Image
                     src="/icons/react-router.webp"
                     alt="react-router"
                     width={300}
@@ -119,7 +119,7 @@ const Projects = () => {
                   />
                 </div>
                 <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
-                  <ImageNext
+                  <Image
                     src="/icons/javascript.webp"
                     alt="js"
                     width={300}
@@ -127,7 +127,7 @@ const Projects = () => {
                   />
                 </div>
                 <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
-                  <ImageNext
+                  <Image
                     src="/icons/bootstrap.webp"
                     alt="bootstrap"
                     width={300}
@@ -143,6 +143,7 @@ const Projects = () => {
                   width={500}
                   height={300}
                   className="rounded-xl"
+                  style={{ width: "auto", height: "auto" }}
                 />
               </div>
             </a>
@@ -157,7 +158,7 @@ const Projects = () => {
                   Candy Shop
                 </h1>
                 <div className="w-full ms:w-[9%] ml:w-[9%] md:w-[9%] lg:w-[9%] mb-3">
-                  <ImageNext
+                  <Image
                     src="/icons/github-icon.webp"
                     alt="githubOctocat"
                     width={300}
@@ -171,9 +172,9 @@ const Projects = () => {
                 that will be delivered to the provided address.
               </p>
 
-              <div className="flex items-center gap-[1rem] overflow-auto mb-[3.6rem] md:mb-[1.3rem] ms:mb-[1rem] ml:mb-[3.6rem]">
+              <div className="flex items-center gap-[1rem] overflow-auto mb-[3.6rem] md:mb-[1.3rem] ms:mb-[1rem] ml:mb-[3.6rem] lg:mb-[3rem]">
                 <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
-                  <ImageNext
+                  <Image
                     src="/icons/vitejs.svg"
                     alt="js"
                     width={300}
@@ -181,7 +182,7 @@ const Projects = () => {
                   />
                 </div>
                 <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
-                  <ImageNext
+                  <Image
                     src="/icons/axios.webp"
                     alt="axios"
                     width={300}
@@ -189,7 +190,7 @@ const Projects = () => {
                   />
                 </div>
                 <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
-                  <ImageNext
+                  <Image
                     src="/icons/react-hooks.webp"
                     alt="rect-hooks"
                     width={300}
@@ -197,7 +198,7 @@ const Projects = () => {
                   />
                 </div>
                 <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
-                  <ImageNext
+                  <Image
                     src="/icons/typescript-icon.webp"
                     alt="tys"
                     width={300}
@@ -213,6 +214,7 @@ const Projects = () => {
                   width={500}
                   height={300}
                   className="rounded-xl"
+                  style={{ width: "auto", height: "auto" }}
                 />
               </div>
             </a>
@@ -227,7 +229,7 @@ const Projects = () => {
                   Music Album Manager
                 </h1>
                 <div className="w-full ms:w-[9%] ml:w-[9%] md:w-[9%] lg:w-[9%] mb-1">
-                  <ImageNext
+                  <Image
                     src="/icons/github-icon.webp"
                     alt="githubOctocat"
                     width={300}
@@ -241,9 +243,9 @@ const Projects = () => {
                 functionality for interacting, utilizing Node&apos;s JSON
                 server.
               </p>
-              <div className="flex items-center gap-[1rem] overflow-auto mb-[3.6rem] md:mb-[1.3rem] ms:mb-[1rem] ml:mb-[3.6rem]">
+              <div className="flex items-center gap-[1rem] overflow-auto mb-[3.6rem] md:mb-[1.3rem] ms:mb-[1rem] ml:mb-[3.6rem] lg:mb-[3rem]">
                 <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
-                  <ImageNext
+                  <Image
                     src="/icons/react.svg"
                     alt="react"
                     width={300}
@@ -251,7 +253,7 @@ const Projects = () => {
                   />
                 </div>
                 <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
-                  <ImageNext
+                  <Image
                     src="/icons/nodejs-plain.webp"
                     alt="nodeJs"
                     width={300}
@@ -259,7 +261,7 @@ const Projects = () => {
                   />
                 </div>
                 <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
-                  <ImageNext
+                  <Image
                     src="/icons/crud.webp"
                     alt="crud"
                     width={300}
@@ -267,7 +269,7 @@ const Projects = () => {
                   />
                 </div>
                 <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
-                  <ImageNext
+                  <Image
                     src="/icons/typeJson.webp"
                     alt="typeJson"
                     width={300}
@@ -282,6 +284,7 @@ const Projects = () => {
                   width={500}
                   height={300}
                   className="rounded-xl"
+                  style={{ width: "auto", height: "auto" }}
                 />
               </div>
             </a>
@@ -296,7 +299,7 @@ const Projects = () => {
                   Hacker News
                 </h1>
                 <div className="w-full ms:w-[9%] ml:w-[9%] md:w-[9%] lg:w-[9%] mb-1">
-                  <ImageNext
+                  <Image
                     src="/icons/github-icon.webp"
                     alt="githubOctocat"
                     width={300}
@@ -309,9 +312,9 @@ const Projects = () => {
                 from the request parameters and efficiently organized using
                 TypeScript for typing support.
               </p>
-              <div className="flex items-center gap-[1rem] overflow-auto mb-[3.6rem] md:mb-[1.3rem] ms:mb-[1rem] ml:mb-[5rem]">
+              <div className="flex items-center gap-[1rem] overflow-auto mb-[3.6rem] md:mb-[1.3rem] ms:mb-[1rem] ml:mb-[5rem] lg:mb-[3rem]">
                 <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
-                  <ImageNext
+                  <Image
                     src="/icons/vitejs.svg"
                     alt="viteJs"
                     height={300}
@@ -319,7 +322,7 @@ const Projects = () => {
                   />
                 </div>
                 <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
-                  <ImageNext
+                  <Image
                     src="/icons/typescript-icon.webp"
                     alt="tys"
                     height={300}
@@ -327,7 +330,7 @@ const Projects = () => {
                   />
                 </div>
                 <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
-                  <ImageNext
+                  <Image
                     src="/icons/axios.webp"
                     alt="axios"
                     height={300}
@@ -335,7 +338,7 @@ const Projects = () => {
                   />
                 </div>
                 <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[3%]">
-                  <ImageNext
+                  <Image
                     src="/icons/node-sass.webp"
                     alt="nodeJs"
                     height={300}
@@ -343,13 +346,14 @@ const Projects = () => {
                   />
                 </div>
               </div>
-              <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px] flex items-center justify-center">
+              <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px] flex items-center justify-center mb-[3rem]">
                 <Image
                   src="/images/hackerNews.webp"
                   alt="portfolio"
                   width={500}
                   height={300}
                   className="rounded-xl"
+                  style={{ width: "auto", height: "auto" }} // Ensure aspect ratio is maintained
                 />
               </div>
             </a>
@@ -364,7 +368,7 @@ const Projects = () => {
                   Python Lexicon AI Project
                 </h1>
                 <div className="w-full ms:w-[9%] ml:w-[9%] md:w-[9%] lg:w-[9%] mb-1">
-                  <ImageNext
+                  <Image
                     src="/icons/github-icon.webp"
                     alt="githubOctocat"
                     width={300}
@@ -379,9 +383,9 @@ const Projects = () => {
                 that could be scaled to be a more powerful solution for
                 developers when understanding complex programming concepts.
               </p>
-              <div className="flex items-center gap-[1rem] overflow-auto mb-[3.6rem] md:mb-[1.3rem] ms:mb-[1rem] ml:mb-[3.6rem]">
+              <div className="flex items-center gap-[1rem] overflow-auto mb-[3.6rem] md:mb-[1.3rem] ms:mb-[1rem] ml:mb-[5rem] lg:mb-[3rem]">
                 <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[8%]">
-                  <ImageNext
+                  <Image
                     src="/icons/streamlit_py.svg"
                     alt="streamlit"
                     height={300}
@@ -389,7 +393,7 @@ const Projects = () => {
                   />
                 </div>
                 <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[6%]">
-                  <ImageNext
+                  <Image
                     src="/icons/Pandas.png"
                     alt="pandas_py"
                     height={300}
@@ -397,7 +401,7 @@ const Projects = () => {
                   />
                 </div>
                 <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[6%]">
-                  <ImageNext
+                  <Image
                     src="/icons/scikit-learn.png"
                     alt="scikit-learn-python"
                     height={300}
@@ -405,7 +409,7 @@ const Projects = () => {
                   />
                 </div>
                 <div className="w-full ms:w-[5%] ml:w-[5%] md:w-[6%] lg:w-[9%]">
-                  <ImageNext
+                  <Image
                     src="/icons/plotly_py.webp"
                     alt="plotython"
                     height={300}
@@ -413,13 +417,14 @@ const Projects = () => {
                   />
                 </div>
               </div>
-              <div className="transform cursor-pointer hover:rotate-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px] flex items-center justify-center">
+              <div className="transform cursor-pointer hover:rotate-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px] flex items-center justify-center mb-[3rem]">
                 <Image
                   src="/images/lex_py_app.webp"
                   alt="lexicon_app"
                   width={500}
                   height={300}
                   className="rounded-xl"
+                  style={{ width: "auto", height: "auto" }}
                 />
               </div>
             </a>

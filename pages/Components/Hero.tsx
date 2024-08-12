@@ -1,15 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Particle from "./Particle";
 import TextEffect from "./TextEffect";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import {
   ArrowDownTrayIcon,
   PlayCircleIcon,
   DocumentArrowDownIcon,
 } from "@heroicons/react/20/solid";
 import AOS from "aos";
-
-import { useEffect } from "react";
 
 const Hero = () => {
   useEffect(() => {
@@ -28,10 +26,12 @@ const Hero = () => {
           id="home"
         >
           <div className="">
-            <h1 className="text-[35px] md:text-[50px] text-white font-bold ">
+            <h1 className="text-[35px] md:text-[50px] text-white font-bold JetBrains">
               HI, I&apos;M <samp className="text-yellow-400">Mario</samp>
             </h1>
-            <TextEffect />
+            <span className="JetBrains">
+              <TextEffect />
+            </span>
             <p className="mt-[1.5rem] text-[18px] text-[#ffffff92]">
               As a driven individual, I thrive on bringing order, meticulous
               planning, and a sense of structure to every project I undertake.
@@ -76,14 +76,10 @@ const Hero = () => {
             <Image
               src="/images/mdfvS.webp"
               alt="user"
-              layout="fill"
-              objectFit="cover"
-              className="rounded-full"
-              objectPosition="center top"
-              unoptimized
-              style={{
-                transform: "scale(.99993)",
-              }}
+              fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              className="rounded-full object-cover object-top"
+              priority={true}
             />
           </div>
         </div>
