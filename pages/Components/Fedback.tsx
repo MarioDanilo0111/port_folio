@@ -1,7 +1,7 @@
 import React from "react";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import { StarIcon } from "@heroicons/react/20/solid";
-import { link } from "fs";
+
 interface Props {
   name: string;
   role: string;
@@ -18,8 +18,7 @@ const Feedback = ({ name, role, image, textFed, link }: Props) => {
         alt={name}
         width={100}
         height={100}
-        objectFit="contain"
-        className="mx-auto mb-[2rem] rounded-full"
+        className="mx-auto mb-[2rem] rounded-full object-contain"
       />
       <div className="flex items-center mx-auto">
         <StarIcon className="w-[2rem] h-[2rem] text-yellow-500 " />
@@ -28,21 +27,17 @@ const Feedback = ({ name, role, image, textFed, link }: Props) => {
         <StarIcon className="w-[2rem] h-[2rem] text-yellow-500 " />
         <StarIcon className="w-[2rem] h-[2rem] text-yellow-500 " />
       </div>
-      <a
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-        href={link}
-        target="_blank"
-        onClick={(e) => {
-          if (link === "") e.preventDefault();
-        }}
-      >
-        <div className="flex flex-row justify-center items-center hover:scale-105 duration-300">
-          <h1 className="text-[29px] text-white mt-[1rem]">{name}</h1>
-          {link !== "" && (
+      {link ? (
+        <a
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+          href={link}
+          target="_blank"
+        >
+          <div className="flex flex-row justify-center items-center hover:scale-105 duration-300">
             <div className="ml-[1.3rem] mt-[1.3rem]">
               <Image
                 width={20}
@@ -52,9 +47,11 @@ const Feedback = ({ name, role, image, textFed, link }: Props) => {
                 alt="Linkedin"
               />
             </div>
-          )}
-        </div>
-      </a>
+          </div>
+        </a>
+      ) : (
+        <h1 className="text-[29px] text-white mt-[1rem]">{name}</h1>
+      )}
       <div className="w-full md:w-[90%] lg:w-[75%] xl:w-[60%] 2xl:w-[50%] mx-auto">
         <p className="role text-[18px] text-white opacity-75 mt-[0.5rem] mb-[3rem] mx-4 sm:mx-6 md:mx-8 break-words">
           {role}

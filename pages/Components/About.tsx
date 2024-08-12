@@ -3,7 +3,7 @@ import {
   ArrowDownTrayIcon,
   DocumentArrowDownIcon,
 } from "@heroicons/react/20/solid";
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -57,9 +57,9 @@ const About = () => {
               data-aos="flip-left"
               src="/images/aboutM.webp"
               alt="user"
-              layout="fill"
-              objectFit="contain"
-              className="relative z-[11] w-[100%] h-[100%]"
+              fill
+              className="relative z-[11] object-contain"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 260px"
             />
             <div className="absolute w-[100%] h-[100%] z-[10] bg-[#55e6a5] top-[-2rem] right-[-2rem]"></div>
           </div>

@@ -37,7 +37,9 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>{title}</title>
+        <title>
+          {title || "Front End Portfolio - JavaScript & TypeScript Project"}
+        </title>
         <meta name="description" content={description} />
         <meta name="author" content={author} />
       </Head>
