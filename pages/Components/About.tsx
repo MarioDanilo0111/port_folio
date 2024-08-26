@@ -1,8 +1,5 @@
 import React from "react";
-import {
-  ArrowDownTrayIcon,
-  DocumentArrowDownIcon,
-} from "@heroicons/react/20/solid";
+import { DocumentArrowDownIcon } from "@heroicons/react/20/solid";
 import Image from "next/image";
 
 const About = () => {
@@ -34,10 +31,6 @@ const About = () => {
                 meet but exceed expectations.
               </p>
             </div>
-            {/* <button className="px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#55e6a5] text-black flex items-cemter space-x-2">
-              <p>Download CV</p>
-              <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black" />
-            </button> */}
             <a
               href="/myCV/CV-2024-Portfolio English LinkedIn.pdf"
               download="CV-2024-Portfolio English LinkedIn.pdf"
@@ -57,9 +50,11 @@ const About = () => {
               data-aos="flip-left"
               src="/images/aboutM.webp"
               alt="user"
-              fill
-              className="relative z-[11] object-contain"
+              width={260}
+              height={400}
+              className="relative z-[11] object-contain "
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 260px"
+              style={{ width: "100%", height: "100%" }}
             />
             <div className="absolute w-[100%] h-[100%] z-[10] bg-[#55e6a5] top-[-2rem] right-[-2rem]"></div>
           </div>
