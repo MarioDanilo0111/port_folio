@@ -1,3 +1,5 @@
+import Skills from "@/pages/Components/Skills";
+
 const SkillsArray = [
   {
     title: "Front End Developer",
@@ -136,6 +138,37 @@ const SkillsArray = [
         skillImagen: "/icons/arrayC.webp",
       },
       { skill: "OOP", level: 80, skillImagen: "/icons/OOP.webp" },
+    ],
+  },
+  {
+    title: "Computer and Network Technology",
+    fundation: "NTI School",
+    year: "2024",
+    description:
+      "Developed an understanding of both computer hardware and network technology. Conducted performance analysis of various components and learned methods to optimize computer performance and functionality. Additionally, acquired knowledge in the administration and usage of common operating systems, including Windows and Linux, with a focus on their specific technical characteristics and applications.",
+
+    SkillsLanguage: [
+      {
+        skill: "Network Technology",
+        level: 60,
+        skillImagen: "/icons/network.webp",
+      },
+      {
+        skill: "Servers Optimization",
+        level: 60,
+        skillImagen: "/icons/bandwidth.webp",
+      },
+      {
+        skill: "Windows Operating System",
+        level: 90,
+        skillImagen: "/icons/windows.svg",
+      },
+      {
+        Skills: "Virtual Machines",
+        level: 60,
+        skillImagen: "/icons/vB.webp",
+      },
+      { skill: "Linux", level: 90, skillImagen: "/icons/linux.webp" },
     ],
   },
 ];
