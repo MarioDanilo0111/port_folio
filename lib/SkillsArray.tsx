@@ -140,6 +140,7 @@ const SkillsArray = [
       { skill: "OOP", level: 80, skillImagen: "/icons/OOP.webp" },
     ],
   },
+
   {
     title: "Computer and Network Technology",
     fundation: "NTI School",
@@ -164,7 +165,7 @@ const SkillsArray = [
         skillImagen: "/icons/windows.svg",
       },
       {
-        Skills: "Virtual Machines",
+        skill: "Virtual Machines",
         level: 60,
         skillImagen: "/icons/vB.webp",
       },

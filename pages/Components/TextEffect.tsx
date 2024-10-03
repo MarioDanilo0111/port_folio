@@ -9,7 +9,7 @@ const TextEffect = () => {
         1500,
         "web developer",
         1500,
-        "Python-AI Dev",
+        "Python AI Dev",
         1500,
         "designer",
         1500,
