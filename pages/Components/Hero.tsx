@@ -23,7 +23,7 @@ const Hero = () => {
         >
           <div className="">
             <h1 className="text-[35px] md:text-[50px] text-white font-bold JetBrains">
-              HI, I&apos;M <samp className="text-yellow-400">Mario</samp>
+              HI, I&apos;M <samp className="text-yellow-400">Danilo</samp>
             </h1>
             <span className="JetBrains">
               <TextEffect />

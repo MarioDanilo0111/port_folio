@@ -6,6 +6,7 @@ interface TechIcon {
 interface Project {
   title: string;
   linkRepo: string;
+  linkDeploy?: string;
   description: string;
   techIcons: TechIcon[];
   projectImage?: TechIcon;
@@ -16,6 +17,7 @@ interface ProjectGroup {
   headerTitle: string;
   spanHeaderTitle: string;
   gitHubIcon: TechIcon;
+  netLifyIcon?: TechIcon;
   projects: Project[];
 }
 
@@ -24,6 +26,7 @@ const ProjectsArray: ProjectGroup[] = [
     headerTitle: "Pro",
     spanHeaderTitle: "jects",
     gitHubIcon: { src: "/icons/github-icon.webp", alt: "GitHub" },
+    netLifyIcon: { src: "/icons/netlify-original.webp", alt: "Netlify" },
 
     projects: [
       {
@@ -31,7 +34,7 @@ const ProjectsArray: ProjectGroup[] = [
         linkRepo: "https://github.com/MarioDanilo0111/NotesApp",
         description:
           "A full stack web application that allows users to create, read, update, and delete notes. Security and user authentication are bolstered by Passport and its Google OAuth2.0 strategy.",
-        dataAOS: "fade-rigth",
+        dataAOS: "fade-right",
 
         techIcons: [
           { src: "/icons/expressjs.webp", alt: "express" },
@@ -102,23 +105,22 @@ const ProjectsArray: ProjectGroup[] = [
         },
       },
       {
-        title: "Hacker News",
-        linkRepo: "https://github.com/MarioDanilo0111/hackersNews-app",
+        title: "GeoMonitor - AI Forecast Simulator",
+        linkRepo: "https://github.com/MarioDanilo0111/Geo-Monitor",
+        linkDeploy: "https://geo-monitor.netlify.app/",
         description:
-          "Application for fetching data from Hacker News API, structured from the request parameters and efficiently organized using TypeScript for typing support.",
-
-        dataAOS: "fade-right",
+          "A TypeScript AI-assisted dashboard simulating trend analysis. Uses mock API data for location selection and future projections, with modular components, responsive design, clear visualizations, and fully deployed online.",
+        dataAOS: "fade-rigth",
 
         techIcons: [
-          { src: "/icons/vitejs.svg", alt: "viteJs" },
-          { src: "/icons/typescript-icon.webp", alt: "tys" },
-          { src: "/icons/axios.webp", alt: "axios" },
-          { src: "/icons/node-sass.webp", alt: "nodeJs" },
+          { src: "/icons/typescript-icon.webp", alt: "TypeScript" },
+          { src: "/icons/tailwindcss.svg", alt: "tailwindCss" },
+          { src: "/icons/react.svg", alt: "reactJs" },
+          { src: "/icons/pwa_app.webp", alt: "pwa_app" },
         ],
-
         projectImage: {
-          src: "/images/hackerNews.webp",
-          alt: "hackerNews",
+          src: "/images/geoMonit.webp",
+          alt: "Geo-Monitor",
         },
       },
       {
@@ -126,7 +128,6 @@ const ProjectsArray: ProjectGroup[] = [
         linkRepo: "https://github.com/MarioDanilo0111/Lexicon_Project",
         description:
           "My first attempt at building an application using Python. Using AI intelligens and Streamlit interface options. This project was a significant milestone in my coding journey, developing an idee that could be scaled to be a more powerful solution for developers when understanding complex programming concepts.",
-
         dataAOS: "fade-left",
 
         techIcons: [
