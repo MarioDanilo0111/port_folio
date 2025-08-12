@@ -43,15 +43,14 @@ const ProjectsIcons: React.FC<{
         ))}
       </div>
       {projectImage && (
-        <div className="transform cursor-pointer hover:rotate-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]  flex items-center justify-center">
+        <div className="relative w-full aspect-[1792/1024] overflow-hidden rounded-xl transform cursor-pointer hover:rotate-6 transition-all">
           <Image
             src={projectImage.src}
             alt={projectImage.alt}
-            width={500}
-            height={300}
-            className="rounded-xl"
-            style={{ objectFit: "cover", width: "auto", height: "auto" }}
+            fill
+            className="object-cover"
             priority
+            sizes="(min-width:1024px) 800px, 100vw"
           />
         </div>
       )}

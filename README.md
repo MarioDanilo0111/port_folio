@@ -20,76 +20,61 @@ First, clone the repository to your local machine:
 
 ```bash
 git clone [https://github.com/MarioDanilo0111/port_folio.git]
-```
-
-Navigate to the project directory:
-
-```bash
 cd [port_folio]
-```
-
-Install the project dependencies:
-
-```bash
 npm install
-# or, if you use Yarn
-yarn install
 ```
 
-### Development Server
+### Development
 
-To start the development server, run:
+Start the dev server:
 
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
 This will start the server at http://localhost:3000. Open the URL in your browser to view
 the application.
 
+Install the project dependencies:
+
+```bash
+# or, if you use Yarn
+yarn install
+```
+
 ### Production Build
 
-To create a production build of the application:
+Create and start a production build:
 
 ```bash
 npm run build
-# or
-yarn build
-```
-
-After the build process completes, you can start the production server with:
-
-```bash
-npm run start
-# or
-yarn start
+# then
+npm start
 ```
 
 ### Linting
 
-To run ESLint to catch linting errors:
+Run ESLint:
 
 ```bash
 npm run lint
-# or
-yarn lint
 ```
 
-### Static Export
+### Pre-push Checks
 
-To export your application as static HTML, which can be run standalone without the need for
-a Node.js server:
+This project uses a Husky `pre-push` hook to ensure quality before pushing to the remote repo.
+It runs:
 
 ```bash
-npm run export
-# or
-yarn export
+sh .husky/pre-push
 ```
 
-This will generate a `_static`folder with the exported static files, which you can deploy to any
-static hosting service.
+if any step fails, the push will be blocked until the issue is fixed.
+Bypass (not recommended):
+
+```bash
+git push --no-verify
+```
 
 ## Dependencies Explained
 

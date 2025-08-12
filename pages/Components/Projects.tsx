@@ -19,8 +19,11 @@ const Projects = () => {
                   <ProjectGitHubRepo
                     title={project.title}
                     linkRepo={project.linkRepo}
+                    linkDeploy={project.linkDeploy}
                     gitHubIconSrc={item.gitHubIcon.src}
                     gitHubIconAlt={item.gitHubIcon.alt}
+                    netLifyIcon={item.netLifyIcon?.src}
+                    netlifyIconAlt={item.netLifyIcon?.alt}
                   />
                 </div>
 

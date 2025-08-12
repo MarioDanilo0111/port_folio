@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+
+echo "✅ Running pre-push checks..."
+npm run typecheck && npm run lint && npm run build
