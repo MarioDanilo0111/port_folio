@@ -76,6 +76,28 @@ Bypass (not recommended):
 git push --no-verify
 ```
 
+### CI/CD Enhancements
+
+### Continuous Integration
+
+The pipeline runs on every push and pull request and performs:
+
+- TypeScript type checking (`npm run type-check`)
+- ESLint linting (`npm run lint`)
+- Production build (`npm run build`)
+
+This checks ensure that all code merged into the main branch meets project quality standards.
+
+### Local Pre-Push Hook
+
+We use [Husky](https://typicode.github.io/husky) to run checks before any code is pushed to the repository.
+
+The `pre-push` hook runs:
+
+```bash
+npm run type-check && npm run lint && npm run build
+```
+
 ## Dependencies Explained
 
 ### Main Dependencies
