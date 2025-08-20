@@ -7,8 +7,8 @@ interface Props {
   linkDeploy?: string;
   gitHubIconSrc: string;
   gitHubIconAlt: string;
-  netLifyIcon?: string;
-  netlifyIconAlt?: string;
+  deployIcon?: string;
+  deployIconAlt?: string;
 }
 
 const ProjectGitHubRepo = ({
@@ -17,21 +17,21 @@ const ProjectGitHubRepo = ({
   linkDeploy,
   gitHubIconSrc,
   gitHubIconAlt,
-  netLifyIcon,
-  netlifyIconAlt,
+  deployIcon,
+  deployIconAlt,
 }: Props) => {
   return (
     <div className="flex pt-[2rem] mx-auto">
-      <a
-        href={linkRepo}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="group flex items-center gap-3"
-      >
-        <h2 className="text-[20px] md:text-[30px] lg:text-[40px] md:leading-[3rem] leading-[2rem] font-bold text-white">
-          {title}
-        </h2>
-        <div className="flex flex-row item-center gap-3 !flex_nowrap">
+      <h2 className="text-[20px] md:text-[30px] lg:text-[40px] md:leading-[3rem] leading-[2rem] font-bold text-white">
+        {title}
+      </h2>
+      <div className="flex flex-row items-center gap-3 !flex-nowrap">
+        <a
+          href={linkRepo}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group flex items-center ml-3"
+        >
           <div className="w-[30px] h-[30px] lg:w-[40px] lg:h-[40px]">
             <Image
               src={gitHubIconSrc}
@@ -40,19 +40,26 @@ const ProjectGitHubRepo = ({
               height={40}
             />
           </div>
+        </a>
 
-          {linkDeploy && netLifyIcon && (
-            <div className="w-[30px] h-[30px] lg:w-[40px] lg:h-[40px]">
+        {linkDeploy && deployIcon && (
+          <div className="w-[30px] h-[30px] lg:w-[40px] lg:h-[40px]">
+            <a
+              href={linkDeploy}
+              target="_blank"
+              rel="noopener noreferrer"
+              arial-label="Open live Demo"
+            >
               <Image
-                src={netLifyIcon}
-                alt={netlifyIconAlt ?? "Live deploy"}
+                src={deployIcon}
+                alt={deployIconAlt ?? "Live deploy"}
                 width={40}
                 height={40}
               />
-            </div>
-          )}
-        </div>
-      </a>
+            </a>
+          </div>
+        )}
+      </div>
     </div>
   );
 };

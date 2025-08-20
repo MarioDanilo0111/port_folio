@@ -22,8 +22,8 @@ const Projects = () => {
                     linkDeploy={project.linkDeploy}
                     gitHubIconSrc={item.gitHubIcon.src}
                     gitHubIconAlt={item.gitHubIcon.alt}
-                    netLifyIcon={item.netLifyIcon?.src}
-                    netlifyIconAlt={item.netLifyIcon?.alt}
+                    deployIcon={project.deployIcon?.src}
+                    deployIconAlt={project.deployIcon?.alt}
                   />
                 </div>
 

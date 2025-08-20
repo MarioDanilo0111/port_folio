@@ -7,6 +7,7 @@ interface Project {
   title: string;
   linkRepo: string;
   linkDeploy?: string;
+  deployIcon?: TechIcon;
   description: string;
   techIcons: TechIcon[];
   projectImage?: TechIcon;
@@ -17,7 +18,6 @@ interface ProjectGroup {
   headerTitle: string;
   spanHeaderTitle: string;
   gitHubIcon: TechIcon;
-  netLifyIcon?: TechIcon;
   projects: Project[];
 }
 
@@ -26,9 +26,54 @@ const ProjectsArray: ProjectGroup[] = [
     headerTitle: "Pro",
     spanHeaderTitle: "jects",
     gitHubIcon: { src: "/icons/github-icon.webp", alt: "GitHub" },
-    netLifyIcon: { src: "/icons/netlify-original.webp", alt: "Netlify" },
 
     projects: [
+      {
+        title: "GeoMonitor - AI Forecast",
+        linkRepo: "https://github.com/MarioDanilo0111/Geo-Monitor",
+        linkDeploy: "https://geo-monitor.netlify.app/",
+        deployIcon: { src: "/icons/netlify-original.webp", alt: "Netlify" },
+        description:
+          "A TypeScript AI-assisted dashboard simulating trend analysis. Uses mock API data for location selection and future projections, with modular components, responsive design, clear visualizations, and fully deployed online.",
+        dataAOS: "fade-right",
+
+        techIcons: [
+          { src: "/icons/typescript-icon.webp", alt: "TypeScript" },
+          { src: "/icons/tailwindcss.svg", alt: "tailwindCss" },
+          { src: "/icons/react.svg", alt: "reactJs" },
+          { src: "/icons/pwa_app.webp", alt: "pwa_app" },
+        ],
+        projectImage: {
+          src: "/images/geoMonit.webp",
+          alt: "Geo-Monitor",
+        },
+      },
+      {
+        title: "Python Lexicon AI Project",
+        linkRepo: "https://github.com/MarioDanilo0111/Lexicon_Project",
+        linkDeploy: "https://huggingface.co/spaces/maridanilo/lexicon-clean",
+        deployIcon: {
+          src: "/icons/hugging_face.webp",
+          alt: "Hugging_Face_Icon",
+        },
+        description:
+          "My first attempt at building an application using Python. Using AI intelligens and Streamlit interface options. This project was a significant milestone in my coding journey, developing an idee that could be scaled to be a more powerful solution for developers when understanding complex programming concepts.",
+        dataAOS: "fade-left",
+
+        techIcons: [
+          { src: "/icons/streamlit_py.svg", alt: "streamlit" },
+          { src: "/icons/Pandas.png", alt: "pandas_py" },
+          {
+            src: "/icons/scikit-learn.png",
+            alt: "scikit-learn-python",
+          },
+          { src: "/icons/plotly_py.webp", alt: "plotython" },
+        ],
+        projectImage: {
+          src: "/images/lex_py_app.webp",
+          alt: "lexicon_py_app",
+        },
+      },
       {
         title: "Notes App",
         linkRepo: "https://github.com/MarioDanilo0111/NotesApp",
@@ -102,46 +147,6 @@ const ProjectsArray: ProjectGroup[] = [
         projectImage: {
           src: "/images/save-miw.webp",
           alt: "MusicAlbumManager",
-        },
-      },
-      {
-        title: "GeoMonitor - AI Forecast Simulator",
-        linkRepo: "https://github.com/MarioDanilo0111/Geo-Monitor",
-        linkDeploy: "https://geo-monitor.netlify.app/",
-        description:
-          "A TypeScript AI-assisted dashboard simulating trend analysis. Uses mock API data for location selection and future projections, with modular components, responsive design, clear visualizations, and fully deployed online.",
-        dataAOS: "fade-rigth",
-
-        techIcons: [
-          { src: "/icons/typescript-icon.webp", alt: "TypeScript" },
-          { src: "/icons/tailwindcss.svg", alt: "tailwindCss" },
-          { src: "/icons/react.svg", alt: "reactJs" },
-          { src: "/icons/pwa_app.webp", alt: "pwa_app" },
-        ],
-        projectImage: {
-          src: "/images/geoMonit.webp",
-          alt: "Geo-Monitor",
-        },
-      },
-      {
-        title: "Python Lexicon AI Project",
-        linkRepo: "https://github.com/MarioDanilo0111/Lexicon_Project",
-        description:
-          "My first attempt at building an application using Python. Using AI intelligens and Streamlit interface options. This project was a significant milestone in my coding journey, developing an idee that could be scaled to be a more powerful solution for developers when understanding complex programming concepts.",
-        dataAOS: "fade-left",
-
-        techIcons: [
-          { src: "/icons/streamlit_py.svg", alt: "streamlit" },
-          { src: "/icons/Pandas.png", alt: "pandas_py" },
-          {
-            src: "/icons/scikit-learn.png",
-            alt: "scikit-learn-python",
-          },
-          { src: "/icons/plotly_py.webp", alt: "plotython" },
-        ],
-        projectImage: {
-          src: "/images/lex_py_app.webp",
-          alt: "lexicon_py_app",
         },
       },
     ],
