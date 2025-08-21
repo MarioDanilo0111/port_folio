@@ -29,15 +29,12 @@ const Hero = () => {
               <TextEffect />
             </span>
             <p className="mt-[1.5rem] text-[18px] text-[#ffffff92]">
-              As a driven individual, I thrive on bringing order, meticulous
-              planning, and a sense of structure to every project I undertake.
-              The successful completion of my studies has not only broadened my
-              horizons but has also equipped me with a diverse set of skills.{" "}
-              <br /> Approach each task as a positive challenge, viewing it as
-              an opportunity for personal and professional growth. My enthusiasm
-              lies in actively contributing to projects, constantly acquiring
-              new knowledge, and making a positive impact on both the industry
-              and the world at large.
+              I'm a frontend and fullstack developer experienced in React,
+              Django, and modern DevOps practices. I enjoy shaping user-friendly
+              solutions in close collaboration with designers and product
+              owners, <br /> while also stepping into a tech-lead role when
+              needed, guiding teammates, clarifying goals, and being someone
+              others can lean on.
             </p>
 
             <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6">
