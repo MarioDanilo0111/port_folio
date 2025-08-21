@@ -2,8 +2,10 @@ import {
   CodeBracketSquareIcon,
   CommandLineIcon,
   RocketLaunchIcon,
+  ArrowTopRightOnSquareIcon,
 } from "@heroicons/react/20/solid";
 import React from "react";
+import Image from "next/image";
 
 const Services = () => {
   return (
@@ -15,46 +17,116 @@ const Services = () => {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[80%] mx-auto items-center gap-[3rem] mt-[4rem] text-white">
             <div data-aos="fade-right">
-              <div className="bg-red-700 hover:scale-110 transform transition-all duration-300 hover:-rotate-6 uppercase font-semibold text-center p-[2rem] rounded-lg">
-                <CodeBracketSquareIcon className="w-[6rem] h-[6rem] mx-auto text-[#d3fae8]" />
-                <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]">
-                  Frontend
+              <a
+                href="https://noq.nu/vi-ar-noq/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="relative block bg-red-700 hover:scale-105 transform transition-all duration-300 hover:-rotate-2 uppercase font-semibold text-center p-[2rem] rounded-lg min-h-[32rem] cursor-pointer"
+              >
+                <div className="absolute top-4 right-4 text-yellow-300">
+                  <ArrowTopRightOnSquareIcon className="w-5 h-5" />
+                </div>
+                <Image
+                  src="/icons/Logotyp_vit_vector.webp"
+                  alt="noQ Logo"
+                  width={80}
+                  height={80}
+                  className="mx-auto m-6 object-contain"
+                />
+
+                <h1 className="text-[20px] md:text-[28px] mb-8">
+                  Fullstack <br /> Developer
                 </h1>
                 <p className="text-[15px] text-[#d3d2d2] font-normal">
-                  I bring real-world experience in my work. I specialize in
-                  creating user-focused frontend solutions. Adaptability and
-                  problem-solving approach, honed through practical encounters
-                  in the developer&apos;s world.
+                  React + Django features for the noQ platform, collaborating
+                  with product owners and designers, and acting as a go-to
+                  teammate for guidance and structure.
                 </p>
-              </div>
+              </a>
             </div>
             <div data-aos="zoom-out" data-aos-delay="300">
-              <div className="bg-orange-700 hover:scale-110 transform transition-all duration-300 uppercase font-semibold text-center p-[2rem] rounded-lg">
-                <RocketLaunchIcon className="w-[6rem] h-[6rem] mx-auto text-[#d3fae8]" />
-                <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]">
-                  Web Developer
+              <a
+                href="https://codesandbox.io/p/sandbox/floral-frost-nncd4m"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="relative block bg-orange-700 hover:scale-105 transform transition-all duration-300 uppercase font-semibold text-center p-[2rem] rounded-lg min-h-[32rem] cursor-pointer"
+              >
+                <div className="absolute top-4 right-4 text-yellow-300">
+                  <ArrowTopRightOnSquareIcon className="w-5 h-5" />
+                </div>
+                <Image
+                  src="/icons/codesandbox.svg"
+                  alt="codeSandbox Logo"
+                  width={80}
+                  height={80}
+                  className="mx-auto mb-4 object-contain"
+                />
+                <h1 className="text-[20px] md:text-[28px] mb-4">
+                  Continuous Learning Katas
                 </h1>
                 <p className="text-[15px] text-[#d3d2d2] font-normal">
-                  Dynamic web developer skilled in NEXT.JS, React, CMS, API
-                  usage, SEO, responsive design, accessibility, agile
-                  methodologies, Git version control, UI testing and
-                  cross-functional collaboration.
+                  I use coding katas to sharpen fundamentals and stay reliable
+                  as a teammate. Practicing React hooks, state, problem-solving,
+                  and DSA keeps me ready to guide others and tackle challenges
+                  with clarity.
                 </p>
-              </div>
+              </a>
             </div>
             <div data-aos="fade-left" data-aos-delay="500">
-              <div className="bg-blue-700 hover:scale-110 transform transition-all duration-300 hover:rotate-6 uppercase font-semibold text-center p-[2rem] rounded-lg">
-                <CommandLineIcon className="w-[6rem] h-[6rem] mx-auto text-[#d3fae8]" />
-                <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]">
-                  UX - UI
-                </h1>
-                <p className="text-[15px] text-[#d3d2d2] font-normal">
-                  Experienced in creating user-focused frontend solutions, I
-                  bring real-world experience and a problem-solving approach,
-                  honed through practical encounters in the developer&apos;s
-                  world. Adaptability is a key strength, complementing my
-                  expertise in crafting effective and user-friendly interfaces.
-                </p>
+              <div
+                className="relative bg-[#1f5ae9] text-white uppercase font-semibold rounded-lg p-8 min-h-[32rem] flex flex-col items-center justify-center text-center
+              "
+              >
+                <Image
+                  src="/icons/depIcon.webp"
+                  alt="Deployed Projects Icon"
+                  width={80}
+                  height={80}
+                  className="mx-auto mb-4 object-contain"
+                />
+                <h2 className="text-2xl md:text-3xl tracking-wide mb-6">
+                  Deployed
+                </h2>
+                <div className="flex flex-col item-center gap-6 mt-2">
+                  <a
+                    role="listitem"
+                    href="https://geo-monitor.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group inline-flex items-center gap-3 px-4 py-2 rounded-full bg-white/10 hover:bg-white/20 transition-colors"
+                    aria-label="Open Geo-Monitor (Netlify) in a new tab"
+                  >
+                    <Image
+                      src="/icons/netlify-original.webp"
+                      alt="Geo Monitor on Netlify"
+                      width={30}
+                      height={30}
+                      className="mx-auto m-1 object-contain"
+                    />
+                    <span className="text-white font-semibold normal-case">
+                      Geo-Monitor
+                    </span>
+                    <ArrowTopRightOnSquareIcon className="w-4 h-4 opacity-80 group-hover:opacity-100" />
+                  </a>
+                  <a
+                    role="listitem"
+                    href="https://huggingface.co/spaces/maridanilo/lexicon-clean"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group inline-flex items-center gap-3 px-4 py-2 rounded-full bg-white/10 hover:bg-white/20 transition-colors"
+                    aria-label="Open Lexicon App (Hugging Face) in a new tab"
+                  >
+                    <Image
+                      src="/icons/hugging_face.webp"
+                      alt="Hugging face logo"
+                      width={30}
+                      height={30}
+                      className="mx-auto m-1 object-contain"
+                    />
+                    <span className="text-white font-medium">Lexicon App</span>
+                    <ArrowTopRightOnSquareIcon className="w-4 h-4 opacity-80 group-hover:opacity-100" />
+                  </a>
+                </div>
               </div>
             </div>
           </div>

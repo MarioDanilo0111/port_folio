@@ -17,18 +17,19 @@ const About = () => {
             <div className="mb-[3rem] flex items-center md:space-x-10">
               {/* <span className="w-[100px] hidden md:block h-[5px] bg-slate-400 rounded-sm"></span> */}
               <p className="text-[19px] text-slate-300 w-full md:w-[80%]">
-                Motivated individual with a strong focus on order, planning, and
-                structure. Successful completion of studies in Frontend
-                Development and ongoing education in Python, focused on machine
-                learning and AI, have significantly expanded my skills and
-                horizons. I thrive on positive challenges that inspire
-                continuous growth and am committed to my educational and
-                professional development. I am enthusiastic about contributing
-                to the industry, acquiring cutting-edge knowledge, and making a
-                significant positive impact. <br />
-                With a passion for Frontend development, I am dedicated to
-                crafting seamless and engaging user experiences that not only
-                meet but exceed expectations.
+                I&apos;m a frontend and fullstack developer with a strong focus
+                on structure, clarity, and user-friendly design.
+                <br />
+                My experience spans React, Django, and DevOps practices, from
+                automation with YAML and CI/CD pipelines to working with Linux
+                and building a solid understanding of system fundamentals.
+                <br />
+                Alongside projects, I practice katas to strengthen my grasp of
+                React hooks, state management, and JavaScript fundamentals,
+                keeping my skills sharp for real-world challenges.
+                <br />I enjoy collaborating with product owners and designers,
+                and I value taking responsibility as a go-to person or tech-lead
+                when it helps the team move forward.
               </p>
             </div>
             <a
