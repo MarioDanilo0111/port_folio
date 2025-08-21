@@ -29,7 +29,7 @@ const Hero = () => {
               <TextEffect />
             </span>
             <p className="mt-[1.5rem] text-[18px] text-[#ffffff92]">
-              I'm a frontend and fullstack developer experienced in React,
+              I&apos;m a frontend and fullstack developer experienced in React,
               Django, and modern DevOps practices. I enjoy shaping user-friendly
               solutions in close collaboration with designers and product
               owners, <br /> while also stepping into a tech-lead role when

@@ -5,6 +5,7 @@ import {
   ArrowTopRightOnSquareIcon,
 } from "@heroicons/react/20/solid";
 import React from "react";
+import Image from "next/image";
 
 const Services = () => {
   return (
@@ -25,13 +26,15 @@ const Services = () => {
                 <div className="absolute top-4 right-4 text-yellow-300">
                   <ArrowTopRightOnSquareIcon className="w-5 h-5" />
                 </div>
-                <img
+                <Image
                   src="/icons/Logotyp_vit_vector.webp"
-                  className="w-20 h-20 mx-auto object-contain mb-4"
                   alt="noQ Logo"
+                  width={80}
+                  height={80}
+                  className="mx-auto m-6 object-contain"
                 />
 
-                <h1 className="text-[20px] md:text-[28px] mb-4">
+                <h1 className="text-[20px] md:text-[28px] mb-8">
                   Fullstack <br /> Developer
                 </h1>
                 <p className="text-[15px] text-[#d3d2d2] font-normal">
@@ -51,10 +54,12 @@ const Services = () => {
                 <div className="absolute top-4 right-4 text-yellow-300">
                   <ArrowTopRightOnSquareIcon className="w-5 h-5" />
                 </div>
-                <img
+                <Image
                   src="/icons/codesandbox.svg"
                   alt="codeSandbox Logo"
-                  className="w-20 h-20 mx-auto object-contain mb-4"
+                  width={80}
+                  height={80}
+                  className="mx-auto mb-4 object-contain"
                 />
                 <h1 className="text-[20px] md:text-[28px] mb-4">
                   Continuous Learning Katas
@@ -72,10 +77,12 @@ const Services = () => {
                 className="relative bg-[#1f5ae9] text-white uppercase font-semibold rounded-lg p-8 min-h-[32rem] flex flex-col items-center justify-center text-center
               "
               >
-                <img
+                <Image
                   src="/icons/depIcon.webp"
                   alt="Deployed Projects Icon"
-                  className="w-24 h-24 object-contain mb-4"
+                  width={80}
+                  height={80}
+                  className="mx-auto mb-4 object-contain"
                 />
                 <h2 className="text-2xl md:text-3xl tracking-wide mb-6">
                   Deployed
@@ -89,10 +96,12 @@ const Services = () => {
                     className="group inline-flex items-center gap-3 px-4 py-2 rounded-full bg-white/10 hover:bg-white/20 transition-colors"
                     aria-label="Open Geo-Monitor (Netlify) in a new tab"
                   >
-                    <img
+                    <Image
                       src="/icons/netlify-original.webp"
                       alt="Geo Monitor on Netlify"
-                      className="w-7 h-7 object-contain"
+                      width={30}
+                      height={30}
+                      className="mx-auto m-1 object-contain"
                     />
                     <span className="text-white font-semibold normal-case">
                       Geo-Monitor
@@ -107,10 +116,12 @@ const Services = () => {
                     className="group inline-flex items-center gap-3 px-4 py-2 rounded-full bg-white/10 hover:bg-white/20 transition-colors"
                     aria-label="Open Lexicon App (Hugging Face) in a new tab"
                   >
-                    <img
+                    <Image
                       src="/icons/hugging_face.webp"
                       alt="Hugging face logo"
-                      className="w-7 h-7 object-contain"
+                      width={30}
+                      height={30}
+                      className="mx-auto m-1 object-contain"
                     />
                     <span className="text-white font-medium">Lexicon App</span>
                     <ArrowTopRightOnSquareIcon className="w-4 h-4 opacity-80 group-hover:opacity-100" />

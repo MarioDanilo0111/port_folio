@@ -17,8 +17,8 @@ const About = () => {
             <div className="mb-[3rem] flex items-center md:space-x-10">
               {/* <span className="w-[100px] hidden md:block h-[5px] bg-slate-400 rounded-sm"></span> */}
               <p className="text-[19px] text-slate-300 w-full md:w-[80%]">
-                I'm a frontend and fullstack developer with a strong focus on
-                structure, clarity, and user-friendly design.
+                I&apos;m a frontend and fullstack developer with a strong focus
+                on structure, clarity, and user-friendly design.
                 <br />
                 My experience spans React, Django, and DevOps practices, from
                 automation with YAML and CI/CD pipelines to working with Linux
