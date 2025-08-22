@@ -3,6 +3,15 @@ interface TechIcon {
   alt: string;
 }
 
+type AOSValues =
+  | "fade"
+  | "fade-up"
+  | "fade-down"
+  | "fade-right"
+  | "fade-left"
+  | "zoom-in"
+  | "zoom-out";
+
 interface Project {
   title: string;
   linkRepo: string;
@@ -11,7 +20,7 @@ interface Project {
   description: string;
   techIcons: TechIcon[];
   projectImage?: TechIcon;
-  dataAOS: string;
+  dataAOS: AOSValues;
 }
 
 interface ProjectGroup {
@@ -21,7 +30,7 @@ interface ProjectGroup {
   projects: Project[];
 }
 
-const ProjectsArray: ProjectGroup[] = [
+export const ProjectsArray = [
   {
     headerTitle: "Pro",
     spanHeaderTitle: "jects",
@@ -151,6 +160,4 @@ const ProjectsArray: ProjectGroup[] = [
       },
     ],
   },
-];
-
-export default ProjectsArray;
+] satisfies ProjectGroup[];

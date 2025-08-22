@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectsArray from "../../lib/ProjectsArray";
+import { ProjectsArray } from "../../lib/ProjectsArray";
 import ProjectGitHubRepo from "./ProjectGitHubRepo";
 import ProjectsIcons from "./ProjectIcons";
 
